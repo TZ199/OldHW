@@ -1,0 +1,4 @@
+Pumbaa|720|736|30
+Squealer|962|963|22
+Napoleon|783|777|30
+Snowball|850|863|40

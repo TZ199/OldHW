@@ -1,0 +1,190 @@
+{
+	label : stoic
+	species : Bat
+	types : [ Poison Flying ]
+	abilities : [ 68 0 67 ]
+	genderThreshold : 127
+	catchRate : 255
+	eggGroups : [ Flying ]
+	hatchCounter : 15
+	height : 0.800000
+	weight : 7.500000
+	baseExpYield : 49
+	baseFriendship : 70
+	expGroup : 2
+	evYield : [ 0 0 0 0 0 1 ]
+	bodyStyle : "Pokemon with a single pair of wings"
+	color : Purple
+	baseStats : [ 40 45 35 30 40 55 ]
+}
+{
+	label : steep
+	species : Bat
+	types : [ Poison Flying ]
+	abilities : [ 68 0 67 ]
+	genderThreshold : 127
+	catchRate : 90
+	eggGroups : [ Flying ]
+	hatchCounter : 15
+	height : 1.600000
+	weight : 55.000000
+	baseExpYield : 159
+	baseFriendship : 70
+	expGroup : 2
+	evYield : [ 0 0 0 0 0 2 ]
+	bodyStyle : "Pokemon with a single pair of wings"
+	color : Purple
+	baseStats : [ 75 80 70 65 75 90 ]
+}
+{
+	label : confident
+	species : LandSnake
+	types : [ Normal ]
+	abilities : [ 132 125 118 ]
+	genderThreshold : 127
+	catchRate : 190
+	eggGroups : [ Field ]
+	hatchCounter : 20
+	height : 1.500000
+	weight : 14.000000
+	baseExpYield : 145
+	baseFriendship : 70
+	expGroup : 2
+	evYield : [ 1 0 0 0 0 0 ]
+	bodyStyle : "Pokemon with serpentine bodies"
+	color : Yellow
+	baseStats : [ 100 70 70 65 65 45 ]
+}
+{
+	label : punctual
+	species : Fairy
+	types : [ Fairy ]
+	abilities : [ 70 125 118 ]
+	genderThreshold : 191
+	catchRate : 190
+	eggGroups : [ Field Fairy ]
+	hatchCounter : 20
+	height : 0.600000
+	weight : 7.800000
+	baseExpYield : 60
+	baseFriendship : 70
+	expGroup : 3
+	evYield : [ 0 1 0 0 0 0 ]
+	bodyStyle : "Pokemon with a bipedal tailless form"
+	color : Pink
+	baseStats : [ 60 80 50 40 40 30 ]
+}
+{
+	label : wet
+	species : Fairy
+	types : [ Fairy ]
+	abilities : [ 70 116 118 ]
+	genderThreshold : 191
+	catchRate : 75
+	eggGroups : [ Field Fairy ]
+	hatchCounter : 20
+	height : 1.400000
+	weight : 48.700000
+	baseExpYield : 158
+	baseFriendship : 70
+	expGroup : 3
+	evYield : [ 0 2 0 0 0 0 ]
+	bodyStyle : "Pokemon with a bipedal tailed form"
+	color : Purple
+	baseStats : [ 90 120 75 60 60 45 ]
+}
+{
+	label : circumspect
+	species : FangSnake
+	types : [ Poison ]
+	abilities : [ 134 0 67 ]
+	genderThreshold : 127
+	catchRate : 90
+	eggGroups : [ Field Dragon ]
+	hatchCounter : 20
+	height : 2.700000
+	weight : 52.500000
+	baseExpYield : 160
+	baseFriendship : 70
+	expGroup : 6
+	evYield : [ 0 1 0 1 0 0 ]
+	bodyStyle : "Pokemon with serpentine bodies"
+	color : Black
+	baseStats : [ 73 100 60 100 60 65 ]
+}
+{
+	label : dainty
+	species : TrashBag
+	types : [ Poison ]
+	abilities : [ 152 153 3 ]
+	genderThreshold : 127
+	catchRate : 190
+	eggGroups : [ Mineral ]
+	hatchCounter : 20
+	height : 0.600000
+	weight : 31.000000
+	baseExpYield : 66
+	baseFriendship : 70
+	expGroup : 2
+	evYield : [ 0 0 0 0 0 1 ]
+	bodyStyle : "Pokemon with a bipedal tailless form"
+	color : Green
+	baseStats : [ 50 50 62 40 62 65 ]
+}
+{
+	label : industrious
+	species : TrashHeap
+	types : [ Poison ]
+	abilities : [ 152 184 3 ]
+	genderThreshold : 127
+	catchRate : 60
+	eggGroups : [ Mineral ]
+	hatchCounter : 20
+	height : 1.900000
+	weight : 107.300000
+	baseExpYield : 166
+	baseFriendship : 70
+	expGroup : 2
+	evYield : [ 0 2 0 0 0 0 ]
+	bodyStyle : "Pokemon with a bipedal tailless form"
+	color : Green
+	baseStats : [ 80 95 82 60 82 75 ]
+}
+{
+	label : disturbed
+	species : Perfume
+	types : [ Fairy ]
+	abilities : [ 54 0 9 ]
+	genderThreshold : 127
+	catchRate : 200
+	eggGroups : [ Fairy ]
+	hatchCounter : 20
+	height : 0.200000
+	weight : 0.500000
+	baseExpYield : 68
+	baseFriendship : 70
+	expGroup : 2
+	evYield : [ 1 0 0 0 0 0 ]
+	bodyStyle : "Pokemon consisting of a head and arms"
+	color : Pink
+	baseStats : [ 78 52 60 63 65 23 ]
+}
+{
+	label : evil
+	species : Fragrance
+	types : [ Fairy ]
+	abilities : [ 54 0 9 ]
+	genderThreshold : 127
+	catchRate : 140
+	eggGroups : [ Fairy ]
+	hatchCounter : 20
+	height : 0.800000
+	weight : 15.500000
+	baseExpYield : 162
+	baseFriendship : 70
+	expGroup : 2
+	evYield : [ 2 0 0 0 0 0 ]
+	bodyStyle : "Pokemon with a bipedal tailless form"
+	color : Pink
+	baseStats : [ 101 72 72 99 89 29 ]
+}

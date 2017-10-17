@@ -1,0 +1,55 @@
+Dr. Memory version 1.11.0 build 2 built on Aug 29 2016 02:37:30
+Dr. Memory results for pid 7451: "foo.out"
+Recorded 3 suppression(s) from default /Users/tianxin/Desktop/Data Structure/DrMemory-MacOS-1.11.0-2/bin/suppress-default.txt
+
+Error #1: UNADDRESSABLE ACCESS beyond heap bounds: reading 4 byte(s)
+# 0 std::__1::vector<>::__push_back_slow_path<>               [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/memory:1527]
+# 1 BPlusTree<>::split                                        [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/vector:1596]
+# 2 BPlusTree<>::split                                        [./BPlusTree.h:289]
+# 3 BPlusTree<>::insert                                       [./BPlusTree.h:156]
+# 4 RealTreeTestNoPrint                                       [hw8_test.cpp:150]
+# 5 main                                                      [hw8_test.cpp:38]
+Note: refers to 28 byte(s) beyond memory that was freed here:
+Note: # 0 replace_operator_delete    
+Note: # 1 std::__1::__split_buffer<>::~__split_buffer               [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/new:177]
+Note: # 2 std::__1::__split_buffer<>::~__split_buffer               [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__split_buffer:340]
+Note: # 3 std::__1::vector<>::__push_back_slow_path<>               [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/vector:1580]
+Note: # 4 BPlusTree<>::split                                        [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/vector:1596]
+Note: # 5 BPlusTree<>::insert                                       [./BPlusTree.h:156]
+
+Error #2: UNADDRESSABLE ACCESS beyond heap bounds: reading 4 byte(s)
+# 0 BPlusTree<>::split                [./BPlusTree.h:267]
+# 1 BPlusTree<>::split                [./BPlusTree.h:289]
+# 2 BPlusTree<>::insert               [./BPlusTree.h:156]
+# 3 RealTreeTestNoPrint               [hw8_test.cpp:150]
+# 4 main                              [hw8_test.cpp:38]
+Note: refers to 28 byte(s) beyond memory that was freed here:
+Note: # 0 replace_operator_delete    
+Note: # 1 std::__1::__split_buffer<>::~__split_buffer               [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/new:177]
+Note: # 2 std::__1::__split_buffer<>::~__split_buffer               [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__split_buffer:340]
+Note: # 3 std::__1::vector<>::__push_back_slow_path<>               [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/vector:1580]
+Note: # 4 BPlusTree<>::split                                        [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/vector:1596]
+Note: # 5 BPlusTree<>::insert                                       [./BPlusTree.h:156]
+
+Error #3: UNADDRESSABLE ACCESS: writing 4 byte(s)
+# 0 BPlusTree<>::split                [./BPlusTree.h:267]
+# 1 BPlusTree<>::split                [./BPlusTree.h:289]
+# 2 BPlusTree<>::insert               [./BPlusTree.h:156]
+# 3 RealTreeTestNoPrint               [hw8_test.cpp:150]
+# 4 main                              [hw8_test.cpp:38]
+
+===========================================================================
+FINAL SUMMARY:
+
+DUPLICATE ERROR COUNTS:
+
+SUPPRESSIONS USED:
+
+ERRORS FOUND:
+      3 unique,     3 total unaddressable access(es)
+      0 unique,     0 total uninitialized access(es)
+      0 unique,     0 total invalid heap argument(s)
+      0 unique,     0 total warning(s)
+      0 unique,     0 total,      0 byte(s) of leak(s)
+      0 unique,     0 total,      0 byte(s) of possible leak(s)
+Details: /Users/tianxin/Desktop/Data Structure/DrMemory-MacOS-1.11.0-2/drmemory/logs/DrMemory-foo.out.7451.000/results.txt

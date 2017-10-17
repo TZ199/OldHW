@@ -1,0 +1,13 @@
+Undefined symbols for architecture x86_64:
+  "MTRand_int32::p", referenced from:
+      MTRand_int32::rand_int32() in test-9b9324.o
+  "MTRand_int32::init", referenced from:
+      MTRand_int32::MTRand_int32() in test-9b9324.o
+  "MTRand_int32::seed(unsigned long)", referenced from:
+      MTRand_int32::MTRand_int32() in test-9b9324.o
+  "MTRand_int32::state", referenced from:
+      MTRand_int32::rand_int32() in test-9b9324.o
+  "MTRand_int32::gen_state()", referenced from:
+      MTRand_int32::rand_int32() in test-9b9324.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)

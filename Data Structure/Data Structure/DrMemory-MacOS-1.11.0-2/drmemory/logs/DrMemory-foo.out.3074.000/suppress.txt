@@ -1,0 +1,2 @@
+# File for suppressing errors found in pid 3074: "foo.out"
+

@@ -1,0 +1,4 @@
+test2.txt58eb173971f6ab8f62c84cc2a7949ef8    a.out
+0664b31ac7018e9caf69bea99b902672    syncr.c
+856babf68edfd13e2fd019df330e11c5    test.txt
+b0baee9d279d34fa1dfd71aadb908c3f    test2.txt

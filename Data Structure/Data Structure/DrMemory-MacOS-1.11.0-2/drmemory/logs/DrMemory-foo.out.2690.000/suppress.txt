@@ -1,0 +1,60 @@
+# File for suppressing errors found in pid 2690: "foo.out"
+
+# Suppression for Error #1
+UNINITIALIZED READ
+name=Error #1 (update to meaningful name)
+foo.out!array_operations
+foo.out!main
+
+## Mod+offs-style suppression for Error #1:
+UNINITIALIZED READ
+name=Error #1 (update to meaningful name)
+<foo.out+0x8a54>
+<foo.out+0x1597c>
+
+# Suppression for Error #2
+POSSIBLE LEAK
+name=Error #2 (update to meaningful name)
+libdrmemorylib.1.11.0.dylib!replace_operator_new_array
+foo.out!file_operations
+foo.out!main
+
+## Mod+offs-style suppression for Error #2:
+POSSIBLE LEAK
+name=Error #2 (update to meaningful name)
+<libdrmemorylib.1.11.0.dylib+0x31b00>
+<foo.out+0x9b28>
+<foo.out+0x15820>
+
+# Suppression for Error #3
+LEAK
+name=Error #3 (update to meaningful name)
+libdrmemorylib.1.11.0.dylib!replace_operator_new
+foo.out!pythagoras
+foo.out!array_operations
+foo.out!main
+
+## Mod+offs-style suppression for Error #3:
+LEAK
+name=Error #3 (update to meaningful name)
+<libdrmemorylib.1.11.0.dylib+0x31800>
+<foo.out+0x8006>
+<foo.out+0x82a1>
+<foo.out+0x1597c>
+
+# Suppression for Error #4
+POSSIBLE LEAK
+name=Error #4 (update to meaningful name)
+libdrmemorylib.1.11.0.dylib!replace_operator_new
+foo.out!pythagoras
+foo.out!array_operations
+foo.out!main
+
+## Mod+offs-style suppression for Error #4:
+POSSIBLE LEAK
+name=Error #4 (update to meaningful name)
+<libdrmemorylib.1.11.0.dylib+0x31800>
+<foo.out+0x8006>
+<foo.out+0x82a1>
+<foo.out+0x1597c>
+

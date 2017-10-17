@@ -1,0 +1,36 @@
+Filename:
+g_combat.c
+Sentence:
+qboolean CanDamage (edict_t *targ, edict_t *inflictor)
+{
+	vec3_t	dest;
+	trace_t	trace;
+
+// bmodels need special checking because their origin is 0,0,0
+	if (targ->movetype == MOVETYPE_PUSH)
+	{
+		VectorAdd (targ->absmin, targ->absmax, dest);
+		VectorScale (dest, 0.5, dest);
+		trace = gi.trace (inflictor->s.origin, vec3_origin, vec3_origin, dest, inflictor, MASK_SOLID);
+		if (trace.fraction == 1.0)
+			return true;
+		if (trace.ent == targ)
+			return true;
+		return false;
+	}
+	
+	trace = gi.trace (inflictor->s.origin, vec3_origin, vec3_origin, targ->s.origin, inflictor, MASK_SOLID);
+	if (trace.fraction == 1.0)
+		return true;
+
+Explaination:
+
+Input arguments:
+targ: entity that is being damaged
+inflictor	entity that is causing the damage
+
+Output:
+True if the target can be damaged 
+False if the target cannot be damaged
+
+Basicly, the function is using the distance and the trace to judge the target wether can be damaged, by using the position of the target and position of the weapon, with the trace.

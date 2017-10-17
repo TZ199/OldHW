@@ -1,0 +1,58 @@
+# File for suppressing errors found in pid 7763: "foo.out"
+
+# Suppression for Error #1
+UNADDRESSABLE ACCESS
+name=Error #1 (update to meaningful name)
+foo.out!std::__1::vector<>::__push_back_slow_path<>
+foo.out!BPlusTree<>::split
+foo.out!BPlusTree<>::split
+foo.out!BPlusTree<>::insert
+foo.out!RealTreeTestNoPrint
+foo.out!main
+
+## Mod+offs-style suppression for Error #1:
+UNADDRESSABLE ACCESS
+name=Error #1 (update to meaningful name)
+<foo.out+0xdca1>
+<foo.out+0xaff3>
+<foo.out+0xbb0b>
+<foo.out+0x4ec0>
+<foo.out+0x3d30>
+<foo.out+0x1196>
+
+# Suppression for Error #2
+UNADDRESSABLE ACCESS
+name=Error #2 (update to meaningful name)
+foo.out!BPlusTree<>::split
+foo.out!BPlusTree<>::split
+foo.out!BPlusTree<>::insert
+foo.out!RealTreeTestNoPrint
+foo.out!main
+
+## Mod+offs-style suppression for Error #2:
+UNADDRESSABLE ACCESS
+name=Error #2 (update to meaningful name)
+<foo.out+0xb022>
+<foo.out+0xbb0b>
+<foo.out+0x4ec0>
+<foo.out+0x3d30>
+<foo.out+0x1196>
+
+# Suppression for Error #3
+UNADDRESSABLE ACCESS
+name=Error #3 (update to meaningful name)
+foo.out!BPlusTree<>::split
+foo.out!BPlusTree<>::split
+foo.out!BPlusTree<>::insert
+foo.out!RealTreeTestNoPrint
+foo.out!main
+
+## Mod+offs-style suppression for Error #3:
+UNADDRESSABLE ACCESS
+name=Error #3 (update to meaningful name)
+<foo.out+0xb025>
+<foo.out+0xbb0b>
+<foo.out+0x4ec0>
+<foo.out+0x3d30>
+<foo.out+0x1196>
+

@@ -1,0 +1,32 @@
+Enter the name of the birds file ==> birds3.txt
+Enter the name of the pigs file ==> pigs3.txt
+
+Num birds 4:
+Woody Woodpecker (25.0,250.0)
+Road Runner (100.0,100.0)
+Woodstock (50.0,150.0)
+Foghorn Leghorn (105.0,160.0)
+....
+Num pigs 4:
+Porky (612.0,600.0)
+Miss Piggy (543.0,897.0)
+Babe (917.0,732.0)
+Piglet (650.0,850.0)
+....
+Time 0: Woody Woodpecker starts at (25.0,250)
+Time 36: Woody Woodpecker at location (529.0,862.0) has popped Miss Piggy
+Time 36: Woody Woodpecker at location (529.0,862.0) now has (dx,dy) = (7.0,17.0)
+Time 44: Woody Woodpecker at location (585.0,998.0) has left the game
+Time 44: Road Runner starts at (100.0,100.0)
+Time 88: Road Runner at location (584.0,584.0) has popped Porky
+Time 88: Road Runner at location (584.0,584.0) now has (dx,dy) = (5.5,11.0)
+Time 125: Road Runner at location (787.5,991.0) has left the game
+Time 125: Woodstock starts at (50.0,150.0)
+Time 258: Woodstock at location (582.0,815.0) has popped Piglet
+Time 258: Woodstock at location (582.0,815.0) now has (dx,dy) = (2.0,5.0)
+Time 258: Woodstock at location (582.0,815.0) with speed 5.4 stops
+Time 258: Foghorn Leghorn starts at (105.0,160.0)
+Time 325: Foghorn Leghorn at location (440.0,964.0) has left the game
+Time 325: No more birds. The pigs win!
+Remaining pigs:
+Babe

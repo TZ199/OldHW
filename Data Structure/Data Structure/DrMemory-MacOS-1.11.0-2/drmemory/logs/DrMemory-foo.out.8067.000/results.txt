@@ -1,0 +1,33 @@
+Dr. Memory version 1.11.0 build 2 built on Aug 29 2016 02:37:30
+Dr. Memory results for pid 8067: "foo.out"
+Recorded 3 suppression(s) from default /Users/tianxin/Desktop/Data Structure/DrMemory-MacOS-1.11.0-2/bin/suppress-default.txt
+
+Error #1: UNADDRESSABLE ACCESS beyond heap bounds: reading 4 byte(s)
+# 0 BPlusTree<>::find                 [./BPlusTree.h:185]
+# 1 BPlusTree<>::find                 [./BPlusTree.h:185]
+# 2 BPlusTree<>::find                 [./BPlusTree.h:165]
+# 3 BPlusTree<>::insert               [./BPlusTree.h:146]
+# 4 RealTreeTestNoPrint               [hw8_test.cpp:150]
+# 5 main                              [hw8_test.cpp:38]
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+
+Error #2: UNADDRESSABLE ACCESS: reading 4 byte(s)
+# 0 BPlusTree<>::insert               [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/vector:642]
+# 1 RealTreeTestNoPrint               [hw8_test.cpp:150]
+# 2 main                              [hw8_test.cpp:38]
+
+===========================================================================
+FINAL SUMMARY:
+
+DUPLICATE ERROR COUNTS:
+
+SUPPRESSIONS USED:
+
+ERRORS FOUND:
+      2 unique,     2 total unaddressable access(es)
+      0 unique,     0 total uninitialized access(es)
+      0 unique,     0 total invalid heap argument(s)
+      0 unique,     0 total warning(s)
+      0 unique,     0 total,      0 byte(s) of leak(s)
+      0 unique,     0 total,      0 byte(s) of possible leak(s)
+Details: /Users/tianxin/Desktop/Data Structure/DrMemory-MacOS-1.11.0-2/drmemory/logs/DrMemory-foo.out.8067.000/results.txt

@@ -1,0 +1,196 @@
+process=6444, parent=6425
+Dr. Memory version 1.11.0 build 2 built on Aug 29 2016 02:37:30
+start time: 0:00:00.000 == 00:00:00.000 01/01/1601
+Recorded 3 suppression(s) from default /Users/tianxin/Desktop/Data Structure/DrMemory-MacOS-1.11.0-2/bin/suppress-default.txt
+new thread #0 id=637098
+
+module load event: "foo.out" 0x00034000-0x00069000 modid: 1 /Users/tianxin/Desktop/Data Structure/Hw8/foo.out
+
+module load event: "libdrpreload.dylib" 0x0006b000-0x0007c000 modid: 2 /Users/tianxin/Desktop/Data Structure/DrMemory-MacOS-1.11.0-2/dynamorio/lib32/release/libdrpreload.dylib
+
+module load event: "dyld" 0x0009e000-0x00117000 modid: 3 /usr/lib/dyld
+WARNING: assuming operator new is non-placement in dyld @0x000be1a0
+WARNING: assuming operator new[] is non-placement in dyld @0x000be224
+
+module load event: "libdynamorio.dylib" 0x00117000-0x002ae000 modid: 4 /Users/tianxin/Desktop/Data Structure/DrMemory-MacOS-1.11.0-2/dynamorio/lib32/release/libdynamorio.dylib
+
+module load event: "libdrmemorylib.1.11.0.dylib" 0x002ae000-0x0041f000 modid: 5 /Users/tianxin/Desktop/Data Structure/DrMemory-MacOS-1.11.0-2/bin/release/libdrmemorylib.dylib
+
+module load event: "libSystem.B.dylib" 0x9ffa8000-0xaef84000 modid: 6 /usr/lib/libSystem.B.dylib
+
+module load event: "libc++.1.dylib" 0xa013f000-0xaef84000 modid: 7 /usr/lib/libc++.1.dylib
+WARNING: assuming operator new[] is non-placement in libc++.1.dylib @0xa01577a7
+WARNING: assuming operator new[] is non-placement in libc++.1.dylib @0xa01577c3
+WARNING: assuming operator new is non-placement in libc++.1.dylib @0xa01577df
+WARNING: assuming operator new is non-placement in libc++.1.dylib @0xa01577fb
+WARNING: assuming operator delete is non-placement in libc++.1.dylib @0xa017c994
+WARNING: assuming operator delete[] is non-placement in libc++.1.dylib @0xa017c99d
+
+module load event: "libc++abi.dylib" 0xa0196000-0xaef84000 modid: 8 /usr/lib/libc++abi.dylib
+WARNING: assuming operator new is non-placement in libc++abi.dylib @0xa01b4620
+WARNING: assuming operator new is non-placement in libc++abi.dylib @0xa01b46a3
+WARNING: assuming operator new[] is non-placement in libc++abi.dylib @0xa01b46e4
+WARNING: assuming operator new[] is non-placement in libc++abi.dylib @0xa01b46e9
+
+module load event: "libobjc.A.dylib" 0xa0ca1000-0xaef84000 modid: 9 /usr/lib/libobjc.A.dylib
+
+module load event: "libcache.dylib" 0xa1468000-0xaef84000 modid: 10 /usr/lib/system/libcache.dylib
+
+module load event: "libcommonCrypto.dylib" 0xa146d000-0xaef84000 modid: 11 /usr/lib/system/libcommonCrypto.dylib
+
+module load event: "libcompiler_rt.dylib" 0xa1478000-0xaef84000 modid: 12 /usr/lib/system/libcompiler_rt.dylib
+
+module load event: "libcopyfile.dylib" 0xa147e000-0xaef84000 modid: 13 /usr/lib/system/libcopyfile.dylib
+
+module load event: "libcorecrypto.dylib" 0xa1487000-0xaef84000 modid: 14 /usr/lib/system/libcorecrypto.dylib
+
+module load event: "libdispatch.dylib" 0xa14ee000-0xaef84000 modid: 15 /usr/lib/system/libdispatch.dylib
+
+module load event: "libdyld.dylib" 0xa151c000-0xaef84000 modid: 16 /usr/lib/system/libdyld.dylib
+
+module load event: "libkeymgr.dylib" 0xa1522000-0xaef84000 modid: 17 /usr/lib/system/libkeymgr.dylib
+
+module load event: "liblaunch.dylib" 0xa1530000-0xaef84000 modid: 18 /usr/lib/system/liblaunch.dylib
+
+module load event: "libmacho.dylib" 0xa1531000-0xaef84000 modid: 19 /usr/lib/system/libmacho.dylib
+
+module load event: "libquarantine.dylib" 0xa1538000-0xaef84000 modid: 20 /usr/lib/system/libquarantine.dylib
+
+module load event: "libremovefile.dylib" 0xa153b000-0xaef84000 modid: 21 /usr/lib/system/libremovefile.dylib
+
+module load event: "libsystem_asl.dylib" 0xa153d000-0xaef84000 modid: 22 /usr/lib/system/libsystem_asl.dylib
+
+module load event: "libsystem_blocks.dylib" 0xa1555000-0xaef84000 modid: 23 /usr/lib/system/libsystem_blocks.dylib
+
+module load event: "libsystem_c.dylib" 0xa1556000-0xaef84000 modid: 24 /usr/lib/system/libsystem_c.dylib
+
+module load event: "libsystem_configuration.dylib" 0xa15e5000-0xaef84000 modid: 25 /usr/lib/system/libsystem_configuration.dylib
+
+module load event: "libsystem_coreservices.dylib" 0xa15e9000-0xaef84000 modid: 26 /usr/lib/system/libsystem_coreservices.dylib
+
+module load event: "libsystem_coretls.dylib" 0xa15ed000-0xaef84000 modid: 27 /usr/lib/system/libsystem_coretls.dylib
+
+module load event: "libsystem_dnssd.dylib" 0xa1606000-0xaef84000 modid: 28 /usr/lib/system/libsystem_dnssd.dylib
+
+module load event: "libsystem_info.dylib" 0xa160d000-0xaef84000 modid: 29 /usr/lib/system/libsystem_info.dylib
+
+module load event: "libsystem_kernel.dylib" 0xa1635000-0xaef84000 modid: 30 /usr/lib/system/libsystem_kernel.dylib
+
+module load event: "libsystem_m.dylib" 0xa1657000-0xaef84000 modid: 31 /usr/lib/system/libsystem_m.dylib
+
+module load event: "libsystem_malloc.dylib" 0xa16a4000-0xaef84000 modid: 32 /usr/lib/system/libsystem_malloc.dylib
+
+module load event: "libsystem_network.dylib" 0xa16bf000-0xaef84000 modid: 33 /usr/lib/system/libsystem_network.dylib
+
+module load event: "libsystem_networkextension.dylib" 0xa1716000-0xaef84000 modid: 34 /usr/lib/system/libsystem_networkextension.dylib
+
+module load event: "libsystem_notify.dylib" 0xa1720000-0xaef84000 modid: 35 /usr/lib/system/libsystem_notify.dylib
+
+module load event: "libsystem_platform.dylib" 0xa1729000-0xaef84000 modid: 36 /usr/lib/system/libsystem_platform.dylib
+
+module load event: "libsystem_pthread.dylib" 0xa1730000-0xaef84000 modid: 37 /usr/lib/system/libsystem_pthread.dylib
+
+module load event: "libsystem_sandbox.dylib" 0xa173a000-0xaef84000 modid: 38 /usr/lib/system/libsystem_sandbox.dylib
+
+module load event: "libsystem_secinit.dylib" 0xa173e000-0xaef84000 modid: 39 /usr/lib/system/libsystem_secinit.dylib
+
+module load event: "libsystem_symptoms.dylib" 0xa1741000-0xaef84000 modid: 40 /usr/lib/system/libsystem_symptoms.dylib
+
+module load event: "libsystem_trace.dylib" 0xa1749000-0xaef84000 modid: 41 /usr/lib/system/libsystem_trace.dylib
+
+module load event: "libunwind.dylib" 0xa175c000-0xaef84000 modid: 42 /usr/lib/system/libunwind.dylib
+
+module load event: "libxpc.dylib" 0xa1763000-0xaef84000 modid: 43 /usr/lib/system/libxpc.dylib
+WARNING: unhandled system calls found
+
+Error #1: UNADDRESSABLE ACCESS beyond heap bounds: reading 4 byte(s)
+# 0 BPlusTree<>::split [./BPlusTree.h:287] (0x000400ef <foo.out+0xc0ef>) modid:1
+# 1 BPlusTree<>::insert [./BPlusTree.h:156] (0x00038ea0 <foo.out+0x4ea0>) modid:1
+# 2 SmallTreeCopyTest [hw8_test.cpp:128] (0x000380f5 <foo.out+0x40f5>) modid:1
+# 3 main    [hw8_test.cpp:32] (0x0003586e <foo.out+0x186e>) modid:1
+Note: refers to 0 byte(s) beyond memory that was freed here:
+Note: # 0 replace_operator_delete     (0x002dffb0 <libdrmemorylib.1.11.0.dylib+0x31fb0>) modid:5
+Note: # 1 std::__1::__split_buffer<>::~__split_buffer [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/new:177] (0x00042c9a <foo.out+0xec9a>) modid:1
+Note: # 2 std::__1::__split_buffer<>::~__split_buffer [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__split_buffer:340] (0x000426b7 <foo.out+0xe6b7>) modid:1
+Note: # 3 std::__1::vector<>::insert [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/vector:1749] (0x00041fe7 <foo.out+0xdfe7>) modid:1
+Note: # 4 BPlusTree<>::split [./BPlusTree.h:290] (0x0004016c <foo.out+0xc16c>) modid:1
+Note: # 5 BPlusTree<>::insert [./BPlusTree.h:156] (0x00038ea0 <foo.out+0x4ea0>) modid:1
+	error end
+
+Error #2: UNINITIALIZED READ: reading register eax
+# 0 BPlusTree<>::split [./BPlusTree.h:287] (0x000400f1 <foo.out+0xc0f1>) modid:1
+# 1 BPlusTree<>::insert [./BPlusTree.h:156] (0x00038ea0 <foo.out+0x4ea0>) modid:1
+# 2 SmallTreeCopyTest [hw8_test.cpp:128] (0x000380f5 <foo.out+0x40f5>) modid:1
+# 3 main    [hw8_test.cpp:32] (0x0003586e <foo.out+0x186e>) modid:1
+	error end
+
+Error #3: UNADDRESSABLE ACCESS of freed memory: reading 4 byte(s)
+# 0 BPlusTree<>::split [./BPlusTree.h:287] (0x000400ef <foo.out+0xc0ef>) modid:1
+# 1 BPlusTree<>::insert [./BPlusTree.h:156] (0x00038ea0 <foo.out+0x4ea0>) modid:1
+# 2 SmallTreeCopyTest [hw8_test.cpp:130] (0x0003816a <foo.out+0x416a>) modid:1
+# 3 main    [hw8_test.cpp:32] (0x0003586e <foo.out+0x186e>) modid:1
+Note: refers to 12 byte(s) into memory that was freed here:
+Note: # 0 replace_operator_delete     (0x002dffb0 <libdrmemorylib.1.11.0.dylib+0x31fb0>) modid:5
+Note: # 1 std::__1::__split_buffer<>::~__split_buffer [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/new:177] (0x00042c9a <foo.out+0xec9a>) modid:1
+Note: # 2 std::__1::__split_buffer<>::~__split_buffer [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__split_buffer:340] (0x000426b7 <foo.out+0xe6b7>) modid:1
+Note: # 3 std::__1::vector<>::insert [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/vector:1749] (0x00041fe7 <foo.out+0xdfe7>) modid:1
+Note: # 4 BPlusTree<>::split [./BPlusTree.h:290] (0x0004016c <foo.out+0xc16c>) modid:1
+Note: # 5 BPlusTree<>::insert [./BPlusTree.h:156] (0x00038ea0 <foo.out+0x4ea0>) modid:1
+	error end
+
+Error #4: UNADDRESSABLE ACCESS of freed memory: writing 4 byte(s)
+# 0 BPlusTree<>::split [./BPlusTree.h:289] (0x0004011d <foo.out+0xc11d>) modid:1
+# 1 BPlusTree<>::insert [./BPlusTree.h:156] (0x00038ea0 <foo.out+0x4ea0>) modid:1
+# 2 SmallTreeCopyTest [hw8_test.cpp:130] (0x0003816a <foo.out+0x416a>) modid:1
+# 3 main    [hw8_test.cpp:32] (0x0003586e <foo.out+0x186e>) modid:1
+Note: refers to 12 byte(s) into memory that was freed here:
+Note: # 0 replace_operator_delete     (0x002dffb0 <libdrmemorylib.1.11.0.dylib+0x31fb0>) modid:5
+Note: # 1 std::__1::__split_buffer<>::~__split_buffer [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/new:177] (0x00042c9a <foo.out+0xec9a>) modid:1
+Note: # 2 std::__1::__split_buffer<>::~__split_buffer [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__split_buffer:340] (0x000426b7 <foo.out+0xe6b7>) modid:1
+Note: # 3 std::__1::vector<>::insert [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/vector:1749] (0x00041fe7 <foo.out+0xdfe7>) modid:1
+Note: # 4 BPlusTree<>::split [./BPlusTree.h:290] (0x0004016c <foo.out+0xc16c>) modid:1
+Note: # 5 BPlusTree<>::insert [./BPlusTree.h:156] (0x00038ea0 <foo.out+0x4ea0>) modid:1
+	error end
+
+Error #5: UNADDRESSABLE ACCESS beyond heap bounds: reading 4 byte(s)
+# 0 replace_memmove             (0x0037f683 <libdrmemorylib.1.11.0.dylib+0xd1683>) modid:5
+# 1 std::__1::vector<>::__move_range [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/algorithm:1942] (0x00042eb3 <foo.out+0xeeb3>) modid:1
+# 2 std::__1::vector<>::insert [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/vector:1735] (0x00041826 <foo.out+0xd826>) modid:1
+# 3 BPlusTree<>::split [./BPlusTree.h:290] (0x0004016c <foo.out+0xc16c>) modid:1
+# 4 BPlusTree<>::insert [./BPlusTree.h:156] (0x00038ea0 <foo.out+0x4ea0>) modid:1
+# 5 SmallTreeCopyTest [hw8_test.cpp:130] (0x0003816a <foo.out+0x416a>) modid:1
+# 6 main    [hw8_test.cpp:32] (0x0003586e <foo.out+0x186e>) modid:1
+	error end
+
+Error #6: UNADDRESSABLE ACCESS beyond heap bounds: writing 4 byte(s)
+# 0 replace_memmove             (0x0037f689 <libdrmemorylib.1.11.0.dylib+0xd1689>) modid:5
+# 1 std::__1::vector<>::__move_range [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/algorithm:1942] (0x00042eb3 <foo.out+0xeeb3>) modid:1
+# 2 std::__1::vector<>::insert [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/vector:1735] (0x00041826 <foo.out+0xd826>) modid:1
+# 3 BPlusTree<>::split [./BPlusTree.h:290] (0x0004016c <foo.out+0xc16c>) modid:1
+# 4 BPlusTree<>::insert [./BPlusTree.h:156] (0x00038ea0 <foo.out+0x4ea0>) modid:1
+# 5 SmallTreeCopyTest [hw8_test.cpp:130] (0x0003816a <foo.out+0x416a>) modid:1
+# 6 main    [hw8_test.cpp:32] (0x0003586e <foo.out+0x186e>) modid:1
+	error end
+
+Error #7: UNADDRESSABLE ACCESS of freed memory: writing 4 byte(s)
+# 0 std::__1::vector<>::insert [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/vector:1739] (0x00041882 <foo.out+0xd882>) modid:1
+# 1 BPlusTree<>::split [./BPlusTree.h:290] (0x0004016c <foo.out+0xc16c>) modid:1
+# 2 BPlusTree<>::insert [./BPlusTree.h:156] (0x00038ea0 <foo.out+0x4ea0>) modid:1
+# 3 SmallTreeCopyTest [hw8_test.cpp:130] (0x0003816a <foo.out+0x416a>) modid:1
+# 4 main    [hw8_test.cpp:32] (0x0003586e <foo.out+0x186e>) modid:1
+Note: refers to 12 byte(s) into memory that was freed here:
+Note: # 0 replace_operator_delete     (0x002dffb0 <libdrmemorylib.1.11.0.dylib+0x31fb0>) modid:5
+Note: # 1 std::__1::__split_buffer<>::~__split_buffer [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/new:177] (0x00042c9a <foo.out+0xec9a>) modid:1
+Note: # 2 std::__1::__split_buffer<>::~__split_buffer [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__split_buffer:340] (0x000426b7 <foo.out+0xe6b7>) modid:1
+Note: # 3 std::__1::vector<>::insert [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/vector:1749] (0x00041fe7 <foo.out+0xdfe7>) modid:1
+Note: # 4 BPlusTree<>::split [./BPlusTree.h:290] (0x0004016c <foo.out+0xc16c>) modid:1
+Note: # 5 BPlusTree<>::insert [./BPlusTree.h:156] (0x00038ea0 <foo.out+0x4ea0>) modid:1
+	error end
+
+Error #8: UNADDRESSABLE ACCESS: writing 4 byte(s)
+# 0 BPlusTree<>::split [./BPlusTree.h:267] (0x0003f885 <foo.out+0xb885>) modid:1
+# 1 BPlusTree<>::split [./BPlusTree.h:295] (0x000401ec <foo.out+0xc1ec>) modid:1
+# 2 BPlusTree<>::insert [./BPlusTree.h:156] (0x00038ea0 <foo.out+0x4ea0>) modid:1
+# 3 SmallTreeCopyTest [hw8_test.cpp:130] (0x0003816a <foo.out+0x416a>) modid:1
+# 4 main    [hw8_test.cpp:32] (0x0003586e <foo.out+0x186e>) modid:1
+	error end

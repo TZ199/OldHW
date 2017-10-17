@@ -1,0 +1,25 @@
+Enter the name of the birds file ==> birds2.txt
+Enter the name of the pigs file ==> pigs2.txt
+
+Num birds 3:
+Hawk (100.0,800.0)
+Eddie (200.0,300.0)
+Super Chicken (400.0,90.0)
+....
+Num pigs 3:
+Wilbur (530.0,850.0)
+Clarence (700.0,400.0)
+Noel (600.0,468.0)
+....
+Time 0: Hawk starts at (100.0,800)
+Time 57: Hawk at location (556.0,458.0) has popped Noel
+Time 57: Hawk at location (556.0,458.0) now has (dx,dy) = (4.0,-6.0)
+Time 131: Hawk at location (852.0,14.0) has left the game
+Time 131: Eddie starts at (200.0,300.0)
+Time 225: Eddie at location (510.2,817.0) has popped Wilbur
+Time 225: Eddie at location (510.2,817.0) now has (dx,dy) = (1.6,5.5)
+Time 225: Eddie at location (510.2,817.0) with speed 5.7 stops
+Time 225: Super Chicken starts at (400.0,90.0)
+Time 259: Super Chicken at location (672.0,368.8) has popped Clarence
+Time 259: Super Chicken at location (672.0,368.8) now has (dx,dy) = (4.0,8.2)
+Time 259: All pigs popped. The birds win!

@@ -1,0 +1,34 @@
+# File for suppressing errors found in pid 6894: "foo.out"
+
+# Suppression for Error #1
+UNADDRESSABLE ACCESS
+name=Error #1 (update to meaningful name)
+foo.out!BPlusTree<>::split
+foo.out!BPlusTree<>::insert
+foo.out!SmallTreeCopyTest
+foo.out!main
+
+## Mod+offs-style suppression for Error #1:
+UNADDRESSABLE ACCESS
+name=Error #1 (update to meaningful name)
+<foo.out+0xb7ea>
+<foo.out+0x4f00>
+<foo.out+0x36f5>
+<foo.out+0xe4e>
+
+# Suppression for Error #2
+UNADDRESSABLE ACCESS
+name=Error #2 (update to meaningful name)
+foo.out!BPlusTree<>::split
+foo.out!BPlusTree<>::insert
+foo.out!SmallTreeCopyTest
+foo.out!main
+
+## Mod+offs-style suppression for Error #2:
+UNADDRESSABLE ACCESS
+name=Error #2 (update to meaningful name)
+<foo.out+0xb7fc>
+<foo.out+0x4f00>
+<foo.out+0x36f5>
+<foo.out+0xe4e>
+

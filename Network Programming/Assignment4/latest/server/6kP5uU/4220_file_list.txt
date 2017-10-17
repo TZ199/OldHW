@@ -1,0 +1,4 @@
+7187597508f1a776e24249c17abbc99d    a.out
+73bd6cadd2dc2eaccdf9019c86727387    syncr.c
+856babf68edfd13e2fd019df330e11c5    test.txt
+b0baee9d279d34fa1dfd71aadb908c3f    test2.txt

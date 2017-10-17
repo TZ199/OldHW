@@ -1,0 +1,161 @@
+Dr. Memory version 1.11.0 build 2 built on Aug 29 2016 02:37:30
+Dr. Memory results for pid 8091: "foo.out"
+Recorded 3 suppression(s) from default /Users/tianxin/Desktop/Data Structure/DrMemory-MacOS-1.11.0-2/bin/suppress-default.txt
+
+Error #1: UNADDRESSABLE ACCESS: writing 4 byte(s)
+# 0 libsystem_platform.dylib!_simple_salloc          
+# 1 libsystem_c.dylib!__assert_rtn     
+# 2 RealTreeTestNoPrint               [hw8_test.cpp:174]
+# 3 main                              [hw8_test.cpp:38]
+
+Error #2: UNADDRESSABLE ACCESS: writing 4 byte(s)
+# 0 libsystem_platform.dylib!_simple_salloc          
+# 1 libsystem_c.dylib!__assert_rtn     
+# 2 RealTreeTestNoPrint               [hw8_test.cpp:174]
+# 3 main                              [hw8_test.cpp:38]
+
+Error #3: UNADDRESSABLE ACCESS: writing 4 byte(s)
+# 0 libsystem_platform.dylib!_simple_salloc          
+# 1 libsystem_c.dylib!__assert_rtn     
+# 2 RealTreeTestNoPrint               [hw8_test.cpp:174]
+# 3 main                              [hw8_test.cpp:38]
+
+Error #4: UNADDRESSABLE ACCESS: writing 4 byte(s)
+# 0 libsystem_platform.dylib!_simple_salloc          
+# 1 libsystem_c.dylib!__assert_rtn     
+# 2 RealTreeTestNoPrint               [hw8_test.cpp:174]
+# 3 main                              [hw8_test.cpp:38]
+
+Error #5: UNADDRESSABLE ACCESS: reading 4 byte(s)
+# 0 libsystem_platform.dylib!__simple_bprintf        
+# 1 libsystem_platform.dylib!_simple_sprintf         
+# 2 libsystem_c.dylib!__assert_rtn     
+# 3 RealTreeTestNoPrint               [hw8_test.cpp:174]
+# 4 main                              [hw8_test.cpp:38]
+
+Error #6: UNADDRESSABLE ACCESS: reading 4 byte(s)
+# 0 libsystem_platform.dylib!__simple_bprintf        
+# 1 libsystem_platform.dylib!_simple_sprintf         
+# 2 libsystem_c.dylib!__assert_rtn     
+# 3 RealTreeTestNoPrint               [hw8_test.cpp:174]
+# 4 main                              [hw8_test.cpp:38]
+
+Error #7: UNADDRESSABLE ACCESS: writing 4 byte(s)
+# 0 libsystem_platform.dylib!__simple_bprintf        
+# 1 libsystem_platform.dylib!_simple_sprintf         
+# 2 libsystem_c.dylib!__assert_rtn     
+# 3 RealTreeTestNoPrint               [hw8_test.cpp:174]
+# 4 main                              [hw8_test.cpp:38]
+
+Error #8: UNADDRESSABLE ACCESS: writing 1 byte(s)
+# 0 libsystem_platform.dylib!__simple_bprintf        
+# 1 libsystem_platform.dylib!_simple_sprintf         
+# 2 libsystem_c.dylib!__assert_rtn     
+# 3 RealTreeTestNoPrint               [hw8_test.cpp:174]
+# 4 main                              [hw8_test.cpp:38]
+
+Error #9: UNADDRESSABLE ACCESS: reading 4 byte(s)
+# 0 libsystem_platform.dylib!__simple_bprintf        
+# 1 libsystem_platform.dylib!_simple_sprintf         
+# 2 libsystem_c.dylib!__assert_rtn     
+# 3 RealTreeTestNoPrint               [hw8_test.cpp:174]
+# 4 main                              [hw8_test.cpp:38]
+
+Error #10: UNADDRESSABLE ACCESS: reading 4 byte(s)
+# 0 libsystem_platform.dylib!__simple_bprintf        
+# 1 libsystem_platform.dylib!_simple_sprintf         
+# 2 libsystem_c.dylib!__assert_rtn     
+# 3 RealTreeTestNoPrint               [hw8_test.cpp:174]
+# 4 main                              [hw8_test.cpp:38]
+
+Error #11: UNADDRESSABLE ACCESS: writing 4 byte(s)
+# 0 libsystem_platform.dylib!__simple_bprintf        
+# 1 libsystem_platform.dylib!_simple_sprintf         
+# 2 libsystem_c.dylib!__assert_rtn     
+# 3 RealTreeTestNoPrint               [hw8_test.cpp:174]
+# 4 main                              [hw8_test.cpp:38]
+
+Error #12: UNADDRESSABLE ACCESS: writing 1 byte(s)
+# 0 libsystem_platform.dylib!__simple_bprintf        
+# 1 libsystem_platform.dylib!_simple_sprintf         
+# 2 libsystem_c.dylib!__assert_rtn     
+# 3 RealTreeTestNoPrint               [hw8_test.cpp:174]
+# 4 main                              [hw8_test.cpp:38]
+
+Error #13: UNADDRESSABLE ACCESS: reading 4 byte(s)
+# 0 libsystem_platform.dylib!dec                     
+# 1 libsystem_platform.dylib!__simple_bprintf        
+# 2 libsystem_platform.dylib!_simple_sprintf         
+# 3 libsystem_c.dylib!__assert_rtn     
+# 4 RealTreeTestNoPrint               [hw8_test.cpp:174]
+# 5 main                              [hw8_test.cpp:38]
+
+Error #14: UNADDRESSABLE ACCESS: reading 4 byte(s)
+# 0 libsystem_platform.dylib!dec                     
+# 1 libsystem_platform.dylib!__simple_bprintf        
+# 2 libsystem_platform.dylib!_simple_sprintf         
+# 3 libsystem_c.dylib!__assert_rtn     
+# 4 RealTreeTestNoPrint               [hw8_test.cpp:174]
+# 5 main                              [hw8_test.cpp:38]
+
+Error #15: UNADDRESSABLE ACCESS: writing 4 byte(s)
+# 0 libsystem_platform.dylib!dec                     
+# 1 libsystem_platform.dylib!__simple_bprintf        
+# 2 libsystem_platform.dylib!_simple_sprintf         
+# 3 libsystem_c.dylib!__assert_rtn     
+# 4 RealTreeTestNoPrint               [hw8_test.cpp:174]
+# 5 main                              [hw8_test.cpp:38]
+
+Error #16: UNADDRESSABLE ACCESS: writing 1 byte(s)
+# 0 libsystem_platform.dylib!dec                     
+# 1 libsystem_platform.dylib!__simple_bprintf        
+# 2 libsystem_platform.dylib!_simple_sprintf         
+# 3 libsystem_c.dylib!__assert_rtn     
+# 4 RealTreeTestNoPrint               [hw8_test.cpp:174]
+# 5 main                              [hw8_test.cpp:38]
+
+Error #17: UNADDRESSABLE ACCESS: reading 4 byte(s)
+# 0 libsystem_platform.dylib!__simple_bprintf        
+# 1 libsystem_platform.dylib!_simple_sprintf         
+# 2 libsystem_c.dylib!__assert_rtn     
+# 3 RealTreeTestNoPrint               [hw8_test.cpp:174]
+# 4 main                              [hw8_test.cpp:38]
+
+Error #18: UNADDRESSABLE ACCESS: reading 4 byte(s)
+# 0 libsystem_platform.dylib!__simple_bprintf        
+# 1 libsystem_platform.dylib!_simple_sprintf         
+# 2 libsystem_c.dylib!__assert_rtn     
+# 3 RealTreeTestNoPrint               [hw8_test.cpp:174]
+# 4 main                              [hw8_test.cpp:38]
+
+Error #19: UNADDRESSABLE ACCESS: writing 4 byte(s)
+# 0 libsystem_platform.dylib!__simple_bprintf        
+# 1 libsystem_platform.dylib!_simple_sprintf         
+# 2 libsystem_c.dylib!__assert_rtn     
+# 3 RealTreeTestNoPrint               [hw8_test.cpp:174]
+# 4 main                              [hw8_test.cpp:38]
+
+Error #20: UNADDRESSABLE ACCESS: writing 1 byte(s)
+# 0 libsystem_platform.dylib!__simple_bprintf        
+# 1 libsystem_platform.dylib!_simple_sprintf         
+# 2 libsystem_c.dylib!__assert_rtn     
+# 3 RealTreeTestNoPrint               [hw8_test.cpp:174]
+# 4 main                              [hw8_test.cpp:38]
+
+Error #21: UNADDRESSABLE ACCESS: reading 4 byte(s)
+# 0 libsystem_platform.dylib!_simple_string          
+# 1 libsystem_c.dylib!__assert_rtn     
+# 2 RealTreeTestNoPrint               [hw8_test.cpp:174]
+# 3 main                              [hw8_test.cpp:38]
+
+Error #22: UNADDRESSABLE ACCESS: writing 1 byte(s)
+# 0 libsystem_platform.dylib!_simple_string          
+# 1 libsystem_c.dylib!__assert_rtn     
+# 2 RealTreeTestNoPrint               [hw8_test.cpp:174]
+# 3 main                              [hw8_test.cpp:38]
+
+Error #23: UNADDRESSABLE ACCESS: reading 4 byte(s)
+# 0 libsystem_platform.dylib!_simple_string          
+# 1 libsystem_c.dylib!__assert_rtn     
+# 2 RealTreeTestNoPrint               [hw8_test.cpp:174]
+# 3 main                              [hw8_test.cpp:38]

@@ -1,0 +1,26 @@
+  1 Aromatisse(s):  evil
+  1 Dragon(s):      circumspect
+  1 Dunsparce(s):   confident
+  4 Fairy(s):       disturbed evil punctual wet
+  4 Field(s):       circumspect confident punctual wet
+  2 Flying(s):      steep stoic
+  1 Garbodor(s):    industrious
+  1 Golbat(s):      steep
+  1 Granbull(s):    wet
+  2 Mineral(s):     dainty industrious
+ 10 Pokemon(s):     circumspect confident dainty disturbed evil industrious punctual steep stoic wet
+  1 Seviper(s):     circumspect
+  2 Snubbull(s):    punctual wet
+  2 Spritzee(s):    disturbed evil
+  2 Trubbish(s):    dainty industrious
+  2 Zubat(s):       steep stoic
+stoic can breed with:  steep
+steep can breed with:  stoic
+confident can breed with:  punctual wet circumspect
+punctual can breed with:  confident wet circumspect disturbed evil
+wet can breed with:  confident punctual circumspect disturbed evil
+circumspect can breed with:  confident punctual wet
+dainty can breed with:  industrious
+industrious can breed with:  dainty
+disturbed can breed with:  punctual wet evil
+evil can breed with:  punctual wet disturbed

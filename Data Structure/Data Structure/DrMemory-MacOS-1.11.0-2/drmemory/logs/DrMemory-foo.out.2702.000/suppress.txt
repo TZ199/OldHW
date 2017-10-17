@@ -1,0 +1,70 @@
+# File for suppressing errors found in pid 2702: "foo.out"
+
+# Suppression for Error #1
+INVALID HEAP ARGUMENT
+name=Error #1 (update to meaningful name)
+libdrmemorylib.1.11.0.dylib!replace_operator_delete
+foo.out!main
+
+## Mod+offs-style suppression for Error #1:
+INVALID HEAP ARGUMENT
+name=Error #1 (update to meaningful name)
+<libdrmemorylib.1.11.0.dylib+0x31fb0>
+<foo.out+0x158f7>
+
+# Suppression for Error #2
+UNINITIALIZED READ
+name=Error #2 (update to meaningful name)
+foo.out!array_operations
+foo.out!main
+
+## Mod+offs-style suppression for Error #2:
+UNINITIALIZED READ
+name=Error #2 (update to meaningful name)
+<foo.out+0x8a34>
+<foo.out+0x1597f>
+
+# Suppression for Error #3
+UNADDRESSABLE ACCESS
+name=Error #3 (update to meaningful name)
+foo.out!decrypt
+foo.out!main
+
+## Mod+offs-style suppression for Error #3:
+UNADDRESSABLE ACCESS
+name=Error #3 (update to meaningful name)
+<foo.out+0x16345>
+<foo.out+0x15f1a>
+
+# Suppression for Error #4
+LEAK
+name=Error #4 (update to meaningful name)
+libdrmemorylib.1.11.0.dylib!replace_operator_new
+foo.out!pythagoras
+foo.out!array_operations
+foo.out!main
+
+## Mod+offs-style suppression for Error #4:
+LEAK
+name=Error #4 (update to meaningful name)
+<libdrmemorylib.1.11.0.dylib+0x31800>
+<foo.out+0x7fe6>
+<foo.out+0x8281>
+<foo.out+0x1597f>
+
+# Suppression for Error #5
+POSSIBLE LEAK
+name=Error #5 (update to meaningful name)
+libdrmemorylib.1.11.0.dylib!replace_operator_new
+foo.out!pythagoras
+foo.out!array_operations
+foo.out!main
+
+## Mod+offs-style suppression for Error #5:
+POSSIBLE LEAK
+name=Error #5 (update to meaningful name)
+<libdrmemorylib.1.11.0.dylib+0x31800>
+<foo.out+0x7fe6>
+<foo.out+0x8281>
+<foo.out+0x1597f>
+

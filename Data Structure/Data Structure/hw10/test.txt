@@ -1,0 +1,16 @@
+  1 Aromatisse(s):  Aromatisse
+  1 Dragon(s):      Seviper
+  1 Dunsparce(s):   Dunsparce
+  4 Fairy(s):       Aromatisse Granbull Snubbull Spritzee
+  4 Field(s):       Dunsparce Granbull Seviper Snubbull
+  3 Flying(s):      Crobat Golbat Zubat
+  1 Garbodor(s):    Garbodor
+  2 Golbat(s):      Crobat Golbat
+  1 Granbull(s):    Granbull
+  2 Mineral(s):     Garbodor Trubbish
+721 Pokemon(s):    
+  1 Seviper(s):     Seviper
+  2 Snubbull(s):    Granbull Snubbull
+  2 Spritzee(s):    Aromatisse Spritzee
+  2 Trubbish(s):    Garbodor Trubbish
+  3 Zubat(s):       Crobat Golbat Zubat

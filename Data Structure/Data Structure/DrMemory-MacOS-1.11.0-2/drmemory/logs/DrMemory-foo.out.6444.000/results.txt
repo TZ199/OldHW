@@ -1,0 +1,87 @@
+Dr. Memory version 1.11.0 build 2 built on Aug 29 2016 02:37:30
+Dr. Memory results for pid 6444: "foo.out"
+Recorded 3 suppression(s) from default /Users/tianxin/Desktop/Data Structure/DrMemory-MacOS-1.11.0-2/bin/suppress-default.txt
+
+Error #1: UNADDRESSABLE ACCESS beyond heap bounds: reading 4 byte(s)
+# 0 BPlusTree<>::split                [./BPlusTree.h:287]
+# 1 BPlusTree<>::insert               [./BPlusTree.h:156]
+# 2 SmallTreeCopyTest                 [hw8_test.cpp:128]
+# 3 main                              [hw8_test.cpp:32]
+Note: refers to 0 byte(s) beyond memory that was freed here:
+Note: # 0 replace_operator_delete    
+Note: # 1 std::__1::__split_buffer<>::~__split_buffer               [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/new:177]
+Note: # 2 std::__1::__split_buffer<>::~__split_buffer               [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__split_buffer:340]
+Note: # 3 std::__1::vector<>::insert                                [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/vector:1749]
+Note: # 4 BPlusTree<>::split                                        [./BPlusTree.h:290]
+Note: # 5 BPlusTree<>::insert                                       [./BPlusTree.h:156]
+
+Error #2: UNINITIALIZED READ: reading register eax
+# 0 BPlusTree<>::split                [./BPlusTree.h:287]
+# 1 BPlusTree<>::insert               [./BPlusTree.h:156]
+# 2 SmallTreeCopyTest                 [hw8_test.cpp:128]
+# 3 main                              [hw8_test.cpp:32]
+
+Error #3: UNADDRESSABLE ACCESS of freed memory: reading 4 byte(s)
+# 0 BPlusTree<>::split                [./BPlusTree.h:287]
+# 1 BPlusTree<>::insert               [./BPlusTree.h:156]
+# 2 SmallTreeCopyTest                 [hw8_test.cpp:130]
+# 3 main                              [hw8_test.cpp:32]
+Note: refers to 12 byte(s) into memory that was freed here:
+Note: # 0 replace_operator_delete    
+Note: # 1 std::__1::__split_buffer<>::~__split_buffer               [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/new:177]
+Note: # 2 std::__1::__split_buffer<>::~__split_buffer               [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__split_buffer:340]
+Note: # 3 std::__1::vector<>::insert                                [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/vector:1749]
+Note: # 4 BPlusTree<>::split                                        [./BPlusTree.h:290]
+Note: # 5 BPlusTree<>::insert                                       [./BPlusTree.h:156]
+
+Error #4: UNADDRESSABLE ACCESS of freed memory: writing 4 byte(s)
+# 0 BPlusTree<>::split                [./BPlusTree.h:289]
+# 1 BPlusTree<>::insert               [./BPlusTree.h:156]
+# 2 SmallTreeCopyTest                 [hw8_test.cpp:130]
+# 3 main                              [hw8_test.cpp:32]
+Note: refers to 12 byte(s) into memory that was freed here:
+Note: # 0 replace_operator_delete    
+Note: # 1 std::__1::__split_buffer<>::~__split_buffer               [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/new:177]
+Note: # 2 std::__1::__split_buffer<>::~__split_buffer               [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__split_buffer:340]
+Note: # 3 std::__1::vector<>::insert                                [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/vector:1749]
+Note: # 4 BPlusTree<>::split                                        [./BPlusTree.h:290]
+Note: # 5 BPlusTree<>::insert                                       [./BPlusTree.h:156]
+
+Error #5: UNADDRESSABLE ACCESS beyond heap bounds: reading 4 byte(s)
+# 0 replace_memmove            
+# 1 std::__1::vector<>::__move_range               [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/algorithm:1942]
+# 2 std::__1::vector<>::insert                     [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/vector:1735]
+# 3 BPlusTree<>::split                             [./BPlusTree.h:290]
+# 4 BPlusTree<>::insert                            [./BPlusTree.h:156]
+# 5 SmallTreeCopyTest                              [hw8_test.cpp:130]
+# 6 main                                           [hw8_test.cpp:32]
+
+Error #6: UNADDRESSABLE ACCESS beyond heap bounds: writing 4 byte(s)
+# 0 replace_memmove            
+# 1 std::__1::vector<>::__move_range               [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/algorithm:1942]
+# 2 std::__1::vector<>::insert                     [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/vector:1735]
+# 3 BPlusTree<>::split                             [./BPlusTree.h:290]
+# 4 BPlusTree<>::insert                            [./BPlusTree.h:156]
+# 5 SmallTreeCopyTest                              [hw8_test.cpp:130]
+# 6 main                                           [hw8_test.cpp:32]
+
+Error #7: UNADDRESSABLE ACCESS of freed memory: writing 4 byte(s)
+# 0 std::__1::vector<>::insert               [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/vector:1739]
+# 1 BPlusTree<>::split                       [./BPlusTree.h:290]
+# 2 BPlusTree<>::insert                      [./BPlusTree.h:156]
+# 3 SmallTreeCopyTest                        [hw8_test.cpp:130]
+# 4 main                                     [hw8_test.cpp:32]
+Note: refers to 12 byte(s) into memory that was freed here:
+Note: # 0 replace_operator_delete    
+Note: # 1 std::__1::__split_buffer<>::~__split_buffer               [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/new:177]
+Note: # 2 std::__1::__split_buffer<>::~__split_buffer               [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__split_buffer:340]
+Note: # 3 std::__1::vector<>::insert                                [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/vector:1749]
+Note: # 4 BPlusTree<>::split                                        [./BPlusTree.h:290]
+Note: # 5 BPlusTree<>::insert                                       [./BPlusTree.h:156]
+
+Error #8: UNADDRESSABLE ACCESS: writing 4 byte(s)
+# 0 BPlusTree<>::split                [./BPlusTree.h:267]
+# 1 BPlusTree<>::split                [./BPlusTree.h:295]
+# 2 BPlusTree<>::insert               [./BPlusTree.h:156]
+# 3 SmallTreeCopyTest                 [hw8_test.cpp:130]
+# 4 main                              [hw8_test.cpp:32]

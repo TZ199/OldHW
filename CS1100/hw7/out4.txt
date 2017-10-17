@@ -1,0 +1,29 @@
+Enter the name of the birds file ==> birds4.txt
+Enter the name of the pigs file ==> pigs4.txt
+
+Num birds 3:
+Daffy Duck (100.0,100.0)
+Donald Duck (50.0,982.0)
+Chicken Little (111.0,555.0)
+....
+Num pigs 4:
+Pumbaa (720.0,736.0)
+Squealer (962.0,963.0)
+Napoleon (783.0,777.0)
+Snowball (850.0,863.0)
+....
+Time 0: Daffy Duck starts at (100.0,100)
+Time 108: Daffy Duck at location (694.0,694.0) has popped Pumbaa
+Time 108: Daffy Duck at location (694.0,694.0) now has (dx,dy) = (2.8,5.5)
+Time 121: Daffy Duck at location (729.8,765.5) has popped Napoleon
+Time 121: Daffy Duck at location (729.8,765.5) now has (dx,dy) = (1.4,5.5)
+Time 121: Daffy Duck at location (729.8,765.5) with speed 5.7 stops
+Time 121: Donald Duck starts at (50.0,982.0)
+Time 165: Donald Duck at location (798.0,850.0) has popped Snowball
+Time 165: Donald Duck at location (798.0,850.0) now has (dx,dy) = (8.5,-3.0)
+Time 187: Donald Duck at location (985.0,784.0) has left the game
+Time 187: Chicken Little starts at (111.0,555.0)
+Time 324: Chicken Little at location (933.0,966.0) has popped Squealer
+Time 324: Chicken Little at location (933.0,966.0) now has (dx,dy) = (3.0,3.0)
+Time 324: Chicken Little at location (933.0,966.0) with speed 4.2 stops
+Time 324: All pigs popped. The birds win!

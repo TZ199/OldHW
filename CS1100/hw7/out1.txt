@@ -1,0 +1,25 @@
+Enter the name of the birds file ==> birds1.txt
+Enter the name of the pigs file ==> pigs1.txt
+
+Num birds 4:
+Tweetie (72.0,553.0)
+Fred (50.0,40.0)
+Big-Bird (41.0,902.0)
+Sam (600.0,50.0)
+....
+Num pigs 2:
+Clarence (750.0,600.0)
+Wilbur (600.0,300.0)
+....
+Time 0: Tweetie starts at (72.0,553)
+Time 8: Tweetie at location (8.0,505.0) has left the game
+Time 8: Fred starts at (50.0,40.0)
+Time 112: Fred at location (570.0,976.0) has left the game
+Time 112: Big-Bird starts at (41.0,902.0)
+Time 199: Big-Bird at location (215.0,32.0) has left the game
+Time 199: Sam starts at (600.0,50.0)
+Time 228: Sam at location (977.0,224.0) has left the game
+Time 228: No more birds. The pigs win!
+Remaining pigs:
+Clarence
+Wilbur

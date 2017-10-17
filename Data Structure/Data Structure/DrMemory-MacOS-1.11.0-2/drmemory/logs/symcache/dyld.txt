@@ -1,0 +1,112 @@
+Dr. Memory symbol cache version 14
+      2072,697712,0,0,0,aa08e8ff,a834aa06,d97ed08d,173287cd,
+1
+strcspn,0x0
+memcmp,0x26b20
+memalign,0x0
+malloc,0x1793b
+memmove,0x27173
+posix_memalign,0x0
+mallopt,0x0
+wcsstr,0x0
+stpcpy,0x0
+strspn,0x0
+strcpy,0x216b0
+wmemset,0x0
+mallinfo,0x0
+memchr,0x26f60
+cfree,0x0
+tc_free,0x0
+strstr,0x249b0
+wcscpy,0x0
+memset,0x0
+(anonymous namespace)::do_malloc,0x0
+malloc_zone_free,0x0
+calloc,0x17a8e
+tc_malloc_size,0x0
+bzero,0x28375
+memrchr,0x0
+strncat,0x0
+strncpy,0x217c0
+strncmp,0x26e60
+strrchr,0x24993
+tc_new,0x0
+wcslen,0x0
+strcat,0x24a73
+tc_cfree,0x0
+malloc_get_state,0x0
+malloc_set_state,0x0
+wcsrchr,0x0
+wmemcmp,0x0
+wcsncmp,0x0
+wmemchr,0x0
+wmemcpy,0x0
+tc_deletearray,0x0
+operator delete[] nothrow,0x0
+operator delete[],0x2024b
+strlen,0x21770
+valloc,0x0
+wcscmp,0x0
+wcsnlen,0x0
+strchr,0x26d40
+pvalloc,0x0
+memcpy,0x27173
+realloc,0x17b0b
+strcmp,0x26dc0
+wcschr,0x0
+strnlen,0x24977
+_platform_bzero,0x27120
+__libc_pvalloc,0x0
+_platform_memset,0x26be4
+_platform_memcmp,0x26b20
+_platform_memchr,0x26f60
+__libc_mallopt,0x0
+operator new,0x201a0
+__libc_memalign,0x0
+__libc_mallinfo,0x0
+_platform_strlen,0x0
+_platform_strcmp,0x26dc0
+_platform_strchr,0x26d40
+__libc_realloc,0x0
+__libc_malloc,0x0
+__libc_calloc,0x0
+__libc_valloc,0x0
+_platform_strncmp,0x26e60
+operator delete,0x20230
+tc_posix_memalign,0x0
+_platform_memmove,0x27173
+__libc_free,0x0
+malloc_zone_from_ptr,0x0
+operator delete nothrow,0x0
+malloc_zone_calloc,0x0
+tc_newarray,0x0
+malloc_default_zone,0x0
+rawmemchr,0x0
+tc_mallopt,0x0
+operator new nothrow,0x0
+free,0x17a3f
+malloc_destroy_zone,0x0
+(anonymous namespace)::do_free_with_callback,0x0
+malloc_zone_memalign,0x0
+malloc_usable_size,0x0
+(anonymous namespace)::do_memalign,0x0
+malloc_zone_malloc,0x0
+malloc_trim,0x0
+independent_calloc,0x0
+strncasecmp,0x0
+independent_comalloc,0x0
+malloc_zone_realloc,0x0
+tc_delete,0x0
+malloc_zone_valloc,0x0
+operator new[] nothrow,0x0
+operator new[],0x20224
+malloc_stats,0x0
+tc_malloc,0x0
+tc_calloc,0x0
+tc_valloc,0x0
+strchrnul,0x0
+tc_memalign,0x0
+tc_mallinfo,0x0
+malloc_create_zone,0x0
+tc_realloc,0x0
+strcasecmp,0x0

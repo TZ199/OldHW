@@ -1,0 +1,169 @@
+process=7451, parent=6425
+Dr. Memory version 1.11.0 build 2 built on Aug 29 2016 02:37:30
+start time: 0:00:00.000 == 00:00:00.000 01/01/1601
+Recorded 3 suppression(s) from default /Users/tianxin/Desktop/Data Structure/DrMemory-MacOS-1.11.0-2/bin/suppress-default.txt
+new thread #0 id=770341
+
+module load event: "foo.out" 0x00011000-0x00043000 modid: 1 /Users/tianxin/Desktop/Data Structure/Hw8/foo.out
+
+module load event: "libdrpreload.dylib" 0x00043000-0x00054000 modid: 2 /Users/tianxin/Desktop/Data Structure/DrMemory-MacOS-1.11.0-2/dynamorio/lib32/release/libdrpreload.dylib
+
+module load event: "dyld" 0x00108000-0x00181000 modid: 3 /usr/lib/dyld
+WARNING: assuming operator new is non-placement in dyld @0x001281a0
+WARNING: assuming operator new[] is non-placement in dyld @0x00128224
+
+module load event: "libdynamorio.dylib" 0x00181000-0x00318000 modid: 4 /Users/tianxin/Desktop/Data Structure/DrMemory-MacOS-1.11.0-2/dynamorio/lib32/release/libdynamorio.dylib
+
+module load event: "libdrmemorylib.1.11.0.dylib" 0x00318000-0x00489000 modid: 5 /Users/tianxin/Desktop/Data Structure/DrMemory-MacOS-1.11.0-2/bin/release/libdrmemorylib.dylib
+
+module load event: "libSystem.B.dylib" 0x9ffa8000-0xaef84000 modid: 6 /usr/lib/libSystem.B.dylib
+
+module load event: "libc++.1.dylib" 0xa013f000-0xaef84000 modid: 7 /usr/lib/libc++.1.dylib
+WARNING: assuming operator new[] is non-placement in libc++.1.dylib @0xa01577a7
+WARNING: assuming operator new[] is non-placement in libc++.1.dylib @0xa01577c3
+WARNING: assuming operator new is non-placement in libc++.1.dylib @0xa01577df
+WARNING: assuming operator new is non-placement in libc++.1.dylib @0xa01577fb
+WARNING: assuming operator delete is non-placement in libc++.1.dylib @0xa017c994
+WARNING: assuming operator delete[] is non-placement in libc++.1.dylib @0xa017c99d
+
+module load event: "libc++abi.dylib" 0xa0196000-0xaef84000 modid: 8 /usr/lib/libc++abi.dylib
+WARNING: assuming operator new is non-placement in libc++abi.dylib @0xa01b4620
+WARNING: assuming operator new is non-placement in libc++abi.dylib @0xa01b46a3
+WARNING: assuming operator new[] is non-placement in libc++abi.dylib @0xa01b46e4
+WARNING: assuming operator new[] is non-placement in libc++abi.dylib @0xa01b46e9
+
+module load event: "libobjc.A.dylib" 0xa0ca1000-0xaef84000 modid: 9 /usr/lib/libobjc.A.dylib
+
+module load event: "libcache.dylib" 0xa1468000-0xaef84000 modid: 10 /usr/lib/system/libcache.dylib
+
+module load event: "libcommonCrypto.dylib" 0xa146d000-0xaef84000 modid: 11 /usr/lib/system/libcommonCrypto.dylib
+
+module load event: "libcompiler_rt.dylib" 0xa1478000-0xaef84000 modid: 12 /usr/lib/system/libcompiler_rt.dylib
+
+module load event: "libcopyfile.dylib" 0xa147e000-0xaef84000 modid: 13 /usr/lib/system/libcopyfile.dylib
+
+module load event: "libcorecrypto.dylib" 0xa1487000-0xaef84000 modid: 14 /usr/lib/system/libcorecrypto.dylib
+
+module load event: "libdispatch.dylib" 0xa14ee000-0xaef84000 modid: 15 /usr/lib/system/libdispatch.dylib
+
+module load event: "libdyld.dylib" 0xa151c000-0xaef84000 modid: 16 /usr/lib/system/libdyld.dylib
+
+module load event: "libkeymgr.dylib" 0xa1522000-0xaef84000 modid: 17 /usr/lib/system/libkeymgr.dylib
+
+module load event: "liblaunch.dylib" 0xa1530000-0xaef84000 modid: 18 /usr/lib/system/liblaunch.dylib
+
+module load event: "libmacho.dylib" 0xa1531000-0xaef84000 modid: 19 /usr/lib/system/libmacho.dylib
+
+module load event: "libquarantine.dylib" 0xa1538000-0xaef84000 modid: 20 /usr/lib/system/libquarantine.dylib
+
+module load event: "libremovefile.dylib" 0xa153b000-0xaef84000 modid: 21 /usr/lib/system/libremovefile.dylib
+
+module load event: "libsystem_asl.dylib" 0xa153d000-0xaef84000 modid: 22 /usr/lib/system/libsystem_asl.dylib
+
+module load event: "libsystem_blocks.dylib" 0xa1555000-0xaef84000 modid: 23 /usr/lib/system/libsystem_blocks.dylib
+
+module load event: "libsystem_c.dylib" 0xa1556000-0xaef84000 modid: 24 /usr/lib/system/libsystem_c.dylib
+
+module load event: "libsystem_configuration.dylib" 0xa15e5000-0xaef84000 modid: 25 /usr/lib/system/libsystem_configuration.dylib
+
+module load event: "libsystem_coreservices.dylib" 0xa15e9000-0xaef84000 modid: 26 /usr/lib/system/libsystem_coreservices.dylib
+
+module load event: "libsystem_coretls.dylib" 0xa15ed000-0xaef84000 modid: 27 /usr/lib/system/libsystem_coretls.dylib
+
+module load event: "libsystem_dnssd.dylib" 0xa1606000-0xaef84000 modid: 28 /usr/lib/system/libsystem_dnssd.dylib
+
+module load event: "libsystem_info.dylib" 0xa160d000-0xaef84000 modid: 29 /usr/lib/system/libsystem_info.dylib
+
+module load event: "libsystem_kernel.dylib" 0xa1635000-0xaef84000 modid: 30 /usr/lib/system/libsystem_kernel.dylib
+
+module load event: "libsystem_m.dylib" 0xa1657000-0xaef84000 modid: 31 /usr/lib/system/libsystem_m.dylib
+
+module load event: "libsystem_malloc.dylib" 0xa16a4000-0xaef84000 modid: 32 /usr/lib/system/libsystem_malloc.dylib
+
+module load event: "libsystem_network.dylib" 0xa16bf000-0xaef84000 modid: 33 /usr/lib/system/libsystem_network.dylib
+
+module load event: "libsystem_networkextension.dylib" 0xa1716000-0xaef84000 modid: 34 /usr/lib/system/libsystem_networkextension.dylib
+
+module load event: "libsystem_notify.dylib" 0xa1720000-0xaef84000 modid: 35 /usr/lib/system/libsystem_notify.dylib
+
+module load event: "libsystem_platform.dylib" 0xa1729000-0xaef84000 modid: 36 /usr/lib/system/libsystem_platform.dylib
+
+module load event: "libsystem_pthread.dylib" 0xa1730000-0xaef84000 modid: 37 /usr/lib/system/libsystem_pthread.dylib
+
+module load event: "libsystem_sandbox.dylib" 0xa173a000-0xaef84000 modid: 38 /usr/lib/system/libsystem_sandbox.dylib
+
+module load event: "libsystem_secinit.dylib" 0xa173e000-0xaef84000 modid: 39 /usr/lib/system/libsystem_secinit.dylib
+
+module load event: "libsystem_symptoms.dylib" 0xa1741000-0xaef84000 modid: 40 /usr/lib/system/libsystem_symptoms.dylib
+
+module load event: "libsystem_trace.dylib" 0xa1749000-0xaef84000 modid: 41 /usr/lib/system/libsystem_trace.dylib
+
+module load event: "libunwind.dylib" 0xa175c000-0xaef84000 modid: 42 /usr/lib/system/libunwind.dylib
+
+module load event: "libxpc.dylib" 0xa1763000-0xaef84000 modid: 43 /usr/lib/system/libxpc.dylib
+WARNING: unhandled system calls found
+
+Error #1: UNADDRESSABLE ACCESS beyond heap bounds: reading 4 byte(s)
+# 0 std::__1::vector<>::__push_back_slow_path<> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/memory:1527] (0x0001e9b1 <foo.out+0xd9b1>) modid:1
+# 1 BPlusTree<>::split [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/vector:1596] (0x0001c943 <foo.out+0xb943>) modid:1
+# 2 BPlusTree<>::split [./BPlusTree.h:289] (0x0001d2a3 <foo.out+0xc2a3>) modid:1
+# 3 BPlusTree<>::insert [./BPlusTree.h:156] (0x00016a20 <foo.out+0x5a20>) modid:1
+# 4 RealTreeTestNoPrint [hw8_test.cpp:150] (0x00015680 <foo.out+0x4680>) modid:1
+# 5 main    [hw8_test.cpp:38] (0x00012ae6 <foo.out+0x1ae6>) modid:1
+Note: refers to 28 byte(s) beyond memory that was freed here:
+Note: # 0 replace_operator_delete     (0x00349fb0 <libdrmemorylib.1.11.0.dylib+0x31fb0>) modid:5
+Note: # 1 std::__1::__split_buffer<>::~__split_buffer [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/new:177] (0x0001e64a <foo.out+0xd64a>) modid:1
+Note: # 2 std::__1::__split_buffer<>::~__split_buffer [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__split_buffer:340] (0x0001e067 <foo.out+0xd067>) modid:1
+Note: # 3 std::__1::vector<>::__push_back_slow_path<> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/vector:1580] (0x0001dd6f <foo.out+0xcd6f>) modid:1
+Note: # 4 BPlusTree<>::split [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/vector:1596] (0x0001ce9c <foo.out+0xbe9c>) modid:1
+Note: # 5 BPlusTree<>::insert [./BPlusTree.h:156] (0x00016a20 <foo.out+0x5a20>) modid:1
+	error end
+
+Error #2: UNADDRESSABLE ACCESS beyond heap bounds: reading 4 byte(s)
+# 0 BPlusTree<>::split [./BPlusTree.h:267] (0x0001c972 <foo.out+0xb972>) modid:1
+# 1 BPlusTree<>::split [./BPlusTree.h:289] (0x0001d2a3 <foo.out+0xc2a3>) modid:1
+# 2 BPlusTree<>::insert [./BPlusTree.h:156] (0x00016a20 <foo.out+0x5a20>) modid:1
+# 3 RealTreeTestNoPrint [hw8_test.cpp:150] (0x00015680 <foo.out+0x4680>) modid:1
+# 4 main    [hw8_test.cpp:38] (0x00012ae6 <foo.out+0x1ae6>) modid:1
+Note: refers to 28 byte(s) beyond memory that was freed here:
+Note: # 0 replace_operator_delete     (0x00349fb0 <libdrmemorylib.1.11.0.dylib+0x31fb0>) modid:5
+Note: # 1 std::__1::__split_buffer<>::~__split_buffer [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/new:177] (0x0001e64a <foo.out+0xd64a>) modid:1
+Note: # 2 std::__1::__split_buffer<>::~__split_buffer [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__split_buffer:340] (0x0001e067 <foo.out+0xd067>) modid:1
+Note: # 3 std::__1::vector<>::__push_back_slow_path<> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/vector:1580] (0x0001dd6f <foo.out+0xcd6f>) modid:1
+Note: # 4 BPlusTree<>::split [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/vector:1596] (0x0001ce9c <foo.out+0xbe9c>) modid:1
+Note: # 5 BPlusTree<>::insert [./BPlusTree.h:156] (0x00016a20 <foo.out+0x5a20>) modid:1
+	error end
+
+Error #3: UNADDRESSABLE ACCESS: writing 4 byte(s)
+# 0 BPlusTree<>::split [./BPlusTree.h:267] (0x0001c975 <foo.out+0xb975>) modid:1
+# 1 BPlusTree<>::split [./BPlusTree.h:289] (0x0001d2a3 <foo.out+0xc2a3>) modid:1
+# 2 BPlusTree<>::insert [./BPlusTree.h:156] (0x00016a20 <foo.out+0x5a20>) modid:1
+# 3 RealTreeTestNoPrint [hw8_test.cpp:150] (0x00015680 <foo.out+0x4680>) modid:1
+# 4 main    [hw8_test.cpp:38] (0x00012ae6 <foo.out+0x1ae6>) modid:1
+	error end
+
+DUPLICATE ERROR COUNTS:
+
+SUPPRESSIONS USED:
+
+ERRORS FOUND:
+      3 unique,     3 total unaddressable access(es)
+      0 unique,     0 total uninitialized access(es)
+      0 unique,     0 total invalid heap argument(s)
+      0 unique,     0 total warning(s)
+      0 unique,     0 total,      0 byte(s) of leak(s)
+      0 unique,     0 total,      0 byte(s) of possible leak(s)
+Details: /Users/tianxin/Desktop/Data Structure/DrMemory-MacOS-1.11.0-2/drmemory/logs/DrMemory-foo.out.7451.000/results.txt
+
+DUPLICATE POTENTIAL ERROR COUNTS:
+
+POTENTIAL ERRORS FOUND:
+      0 unique,     0 total potential unaddressable access(es)
+      0 unique,     0 total potential uninitialized access(es)
+      0 unique,     0 total potential invalid heap argument(s)
+      0 unique,     0 total potential warning(s)
+      0 unique,     0 total,      0 byte(s) of potential leak(s)
+      0 unique,     0 total,      0 byte(s) of potential possible leak(s)
+Details: /Users/tianxin/Desktop/Data Structure/DrMemory-MacOS-1.11.0-2/drmemory/logs/DrMemory-foo.out.7451.000/potential_errors.txt
+Exiting ö0:00:00.000 in thread 770341
+LOG END

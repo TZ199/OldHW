@@ -1,0 +1,23 @@
+Dr. Memory version 1.11.0 build 2 built on Aug 29 2016 02:37:30
+Dr. Memory results for pid 2775: "foo.out"
+Recorded 3 suppression(s) from default /Users/tianxin/Desktop/Data Structure/DrMemory-MacOS-1.11.0-2/bin/suppress-default.txt
+
+Error #1: UNINITIALIZED READ: reading register eax
+# 0 array_operations               [operations.cpp:189]
+# 1 main                           [operations.cpp:624]
+
+===========================================================================
+FINAL SUMMARY:
+
+DUPLICATE ERROR COUNTS:
+
+SUPPRESSIONS USED:
+
+ERRORS FOUND:
+      0 unique,     0 total unaddressable access(es)
+      1 unique,     1 total uninitialized access(es)
+      0 unique,     0 total invalid heap argument(s)
+      0 unique,     0 total warning(s)
+      0 unique,     0 total,      0 byte(s) of leak(s)
+      0 unique,     0 total,      0 byte(s) of possible leak(s)
+Details: /Users/tianxin/Desktop/Data Structure/DrMemory-MacOS-1.11.0-2/drmemory/logs/DrMemory-foo.out.2775.000/results.txt

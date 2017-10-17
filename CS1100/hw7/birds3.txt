@@ -1,0 +1,4 @@
+Woody Woodpecker|25|250|15|14|17
+Road Runner|100|100|20|11|11
+Woodstock|50|150|40|4|5
+Foghorn Leghorn|105|160|38|5|12

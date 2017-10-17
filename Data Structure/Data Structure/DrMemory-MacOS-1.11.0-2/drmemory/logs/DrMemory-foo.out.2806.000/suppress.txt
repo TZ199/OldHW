@@ -1,0 +1,16 @@
+# File for suppressing errors found in pid 2806: "foo.out"
+
+# Suppression for Error #1
+POSSIBLE LEAK
+name=Error #1 (update to meaningful name)
+libdrmemorylib.1.11.0.dylib!replace_operator_new_array
+foo.out!file_operations
+foo.out!main
+
+## Mod+offs-style suppression for Error #1:
+POSSIBLE LEAK
+name=Error #1 (update to meaningful name)
+<libdrmemorylib.1.11.0.dylib+0x31b00>
+<foo.out+0x9b08>
+<foo.out+0x15800>
+

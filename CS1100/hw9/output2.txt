@@ -1,0 +1,21 @@
+Please enter the message ==> Geronimo!!!
+Please enter the background char (enter for .) ==>  
+Please enter the foreground char (enter for #) ==> @
+No kerning
+ @@@@                               @                   @      @      @     
+@    @  @@@    @@@    @@@   @@@@          @@ @    @@@   @      @      @     
+@      @   @  @      @   @  @   @  @@     @ @ @  @   @  @      @      @     
+@  @@@ @@@@   @      @   @  @   @   @     @ @ @  @   @  @      @      @     
+@    @ @      @      @   @  @   @   @     @ @ @  @   @                      
+ @@@@   @@@@  @       @@@   @   @  @@@    @ @ @   @@@   @      @      @     
+                                                                            
+
+With kerning
+ @@@@                               @                 @  @  @ 
+@    @   @@@    @@@   @@@   @@@@        @@ @    @@@   @  @  @ 
+@       @   @  @     @   @  @   @  @@   @ @ @  @   @  @  @  @ 
+@  @@@  @@@@   @     @   @  @   @   @   @ @ @  @   @  @  @  @ 
+@    @  @      @     @   @  @   @   @   @ @ @  @   @          
+ @@@@    @@@@  @      @@@   @   @  @@@  @ @ @   @@@   @  @  @ 
+                                                              
+

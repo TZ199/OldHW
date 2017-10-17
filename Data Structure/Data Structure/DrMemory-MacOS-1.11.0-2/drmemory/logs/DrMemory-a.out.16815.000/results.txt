@@ -1,0 +1,51 @@
+Dr. Memory version 1.11.0 build 2 built on Aug 29 2016 02:37:30
+Dr. Memory results for pid 16815: "a.out"
+Recorded 3 suppression(s) from default /Users/tianxin/Desktop/Data Structure/DrMemory-MacOS-1.11.0-2/bin/suppress-default.txt
+
+Error #1: POSSIBLE LEAK 20 direct bytes + 56 indirect bytes
+# 0 replace_operator_new       
+# 1 main                               [main_smart_pointers.cpp:76]
+
+Error #2: POSSIBLE LEAK 20 direct bytes + 56 indirect bytes
+# 0 replace_operator_new       
+# 1 main                               [main_smart_pointers.cpp:98]
+
+Error #3: LEAK 20 direct bytes + 40 indirect bytes
+# 0 replace_operator_new       
+# 1 main                               [main_smart_pointers.cpp:100]
+
+Error #4: POSSIBLE LEAK 20 direct bytes + 56 indirect bytes
+# 0 replace_operator_new       
+# 1 main                               [main_smart_pointers.cpp:137]
+
+Error #5: POSSIBLE LEAK 20 direct bytes + 40 indirect bytes
+# 0 replace_operator_new       
+# 1 main                               [main_smart_pointers.cpp:138]
+
+Error #6: LEAK 20 direct bytes + 40 indirect bytes
+# 0 replace_operator_new       
+# 1 main                               [main_smart_pointers.cpp:141]
+
+Error #7: POSSIBLE LEAK 20 bytes 
+# 0 replace_operator_new       
+# 1 main                               [main_smart_pointers.cpp:146]
+
+Error #8: LEAK 20 direct bytes + 72 indirect bytes
+# 0 replace_operator_new       
+# 1 main                               [main_smart_pointers.cpp:148]
+
+===========================================================================
+FINAL SUMMARY:
+
+DUPLICATE ERROR COUNTS:
+
+SUPPRESSIONS USED:
+
+ERRORS FOUND:
+      0 unique,     0 total unaddressable access(es)
+      0 unique,     0 total uninitialized access(es)
+      0 unique,     0 total invalid heap argument(s)
+      0 unique,     0 total warning(s)
+      3 unique,     3 total,    212 byte(s) of leak(s)
+      5 unique,     5 total,    308 byte(s) of possible leak(s)
+Details: /Users/tianxin/Desktop/Data Structure/DrMemory-MacOS-1.11.0-2/drmemory/logs/DrMemory-a.out.16815.000/results.txt

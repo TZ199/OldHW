@@ -1,0 +1,38 @@
+Dr. Memory version 1.11.0 build 2 built on Aug 29 2016 02:37:30
+Dr. Memory results for pid 6894: "foo.out"
+Recorded 3 suppression(s) from default /Users/tianxin/Desktop/Data Structure/DrMemory-MacOS-1.11.0-2/bin/suppress-default.txt
+
+Error #1: UNADDRESSABLE ACCESS beyond heap bounds: reading 4 byte(s)
+# 0 BPlusTree<>::split                [./BPlusTree.h:288]
+# 1 BPlusTree<>::insert               [./BPlusTree.h:156]
+# 2 SmallTreeCopyTest                 [hw8_test.cpp:128]
+# 3 main                              [hw8_test.cpp:32]
+Note: refers to 0 byte(s) beyond memory that was freed here:
+Note: # 0 replace_operator_delete    
+Note: # 1 std::__1::__split_buffer<>::~__split_buffer               [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/new:177]
+Note: # 2 std::__1::__split_buffer<>::~__split_buffer               [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__split_buffer:340]
+Note: # 3 std::__1::vector<>::insert                                [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/vector:1749]
+Note: # 4 BPlusTree<>::split                                        [./BPlusTree.h:295]
+Note: # 5 BPlusTree<>::insert                                       [./BPlusTree.h:156]
+
+Error #2: UNADDRESSABLE ACCESS: reading 4 byte(s)
+# 0 BPlusTree<>::split                [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/vector:1501]
+# 1 BPlusTree<>::insert               [./BPlusTree.h:156]
+# 2 SmallTreeCopyTest                 [hw8_test.cpp:128]
+# 3 main                              [hw8_test.cpp:32]
+
+===========================================================================
+FINAL SUMMARY:
+
+DUPLICATE ERROR COUNTS:
+
+SUPPRESSIONS USED:
+
+ERRORS FOUND:
+      2 unique,     2 total unaddressable access(es)
+      0 unique,     0 total uninitialized access(es)
+      0 unique,     0 total invalid heap argument(s)
+      0 unique,     0 total warning(s)
+      0 unique,     0 total,      0 byte(s) of leak(s)
+      0 unique,     0 total,      0 byte(s) of possible leak(s)
+Details: /Users/tianxin/Desktop/Data Structure/DrMemory-MacOS-1.11.0-2/drmemory/logs/DrMemory-foo.out.6894.000/results.txt

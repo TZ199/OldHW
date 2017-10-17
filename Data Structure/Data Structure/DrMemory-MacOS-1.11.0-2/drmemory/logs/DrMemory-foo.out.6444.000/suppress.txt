@@ -1,0 +1,146 @@
+# File for suppressing errors found in pid 6444: "foo.out"
+
+# Suppression for Error #1
+UNADDRESSABLE ACCESS
+name=Error #1 (update to meaningful name)
+foo.out!BPlusTree<>::split
+foo.out!BPlusTree<>::insert
+foo.out!SmallTreeCopyTest
+foo.out!main
+
+## Mod+offs-style suppression for Error #1:
+UNADDRESSABLE ACCESS
+name=Error #1 (update to meaningful name)
+<foo.out+0xc0ef>
+<foo.out+0x4ea0>
+<foo.out+0x40f5>
+<foo.out+0x186e>
+
+# Suppression for Error #2
+UNINITIALIZED READ
+name=Error #2 (update to meaningful name)
+foo.out!BPlusTree<>::split
+foo.out!BPlusTree<>::insert
+foo.out!SmallTreeCopyTest
+foo.out!main
+
+## Mod+offs-style suppression for Error #2:
+UNINITIALIZED READ
+name=Error #2 (update to meaningful name)
+<foo.out+0xc0f1>
+<foo.out+0x4ea0>
+<foo.out+0x40f5>
+<foo.out+0x186e>
+
+# Suppression for Error #3
+UNADDRESSABLE ACCESS
+name=Error #3 (update to meaningful name)
+foo.out!BPlusTree<>::split
+foo.out!BPlusTree<>::insert
+foo.out!SmallTreeCopyTest
+foo.out!main
+
+## Mod+offs-style suppression for Error #3:
+UNADDRESSABLE ACCESS
+name=Error #3 (update to meaningful name)
+<foo.out+0xc0ef>
+<foo.out+0x4ea0>
+<foo.out+0x416a>
+<foo.out+0x186e>
+
+# Suppression for Error #4
+UNADDRESSABLE ACCESS
+name=Error #4 (update to meaningful name)
+foo.out!BPlusTree<>::split
+foo.out!BPlusTree<>::insert
+foo.out!SmallTreeCopyTest
+foo.out!main
+
+## Mod+offs-style suppression for Error #4:
+UNADDRESSABLE ACCESS
+name=Error #4 (update to meaningful name)
+<foo.out+0xc11d>
+<foo.out+0x4ea0>
+<foo.out+0x416a>
+<foo.out+0x186e>
+
+# Suppression for Error #5
+UNADDRESSABLE ACCESS
+name=Error #5 (update to meaningful name)
+libdrmemorylib.1.11.0.dylib!replace_memmove
+foo.out!std::__1::vector<>::__move_range
+foo.out!std::__1::vector<>::insert
+foo.out!BPlusTree<>::split
+foo.out!BPlusTree<>::insert
+foo.out!SmallTreeCopyTest
+foo.out!main
+
+## Mod+offs-style suppression for Error #5:
+UNADDRESSABLE ACCESS
+name=Error #5 (update to meaningful name)
+<libdrmemorylib.1.11.0.dylib+0xd1683>
+<foo.out+0xeeb3>
+<foo.out+0xd826>
+<foo.out+0xc16c>
+<foo.out+0x4ea0>
+<foo.out+0x416a>
+<foo.out+0x186e>
+
+# Suppression for Error #6
+UNADDRESSABLE ACCESS
+name=Error #6 (update to meaningful name)
+libdrmemorylib.1.11.0.dylib!replace_memmove
+foo.out!std::__1::vector<>::__move_range
+foo.out!std::__1::vector<>::insert
+foo.out!BPlusTree<>::split
+foo.out!BPlusTree<>::insert
+foo.out!SmallTreeCopyTest
+foo.out!main
+
+## Mod+offs-style suppression for Error #6:
+UNADDRESSABLE ACCESS
+name=Error #6 (update to meaningful name)
+<libdrmemorylib.1.11.0.dylib+0xd1689>
+<foo.out+0xeeb3>
+<foo.out+0xd826>
+<foo.out+0xc16c>
+<foo.out+0x4ea0>
+<foo.out+0x416a>
+<foo.out+0x186e>
+
+# Suppression for Error #7
+UNADDRESSABLE ACCESS
+name=Error #7 (update to meaningful name)
+foo.out!std::__1::vector<>::insert
+foo.out!BPlusTree<>::split
+foo.out!BPlusTree<>::insert
+foo.out!SmallTreeCopyTest
+foo.out!main
+
+## Mod+offs-style suppression for Error #7:
+UNADDRESSABLE ACCESS
+name=Error #7 (update to meaningful name)
+<foo.out+0xd882>
+<foo.out+0xc16c>
+<foo.out+0x4ea0>
+<foo.out+0x416a>
+<foo.out+0x186e>
+
+# Suppression for Error #8
+UNADDRESSABLE ACCESS
+name=Error #8 (update to meaningful name)
+foo.out!BPlusTree<>::split
+foo.out!BPlusTree<>::split
+foo.out!BPlusTree<>::insert
+foo.out!SmallTreeCopyTest
+foo.out!main
+
+## Mod+offs-style suppression for Error #8:
+UNADDRESSABLE ACCESS
+name=Error #8 (update to meaningful name)
+<foo.out+0xb885>
+<foo.out+0xc1ec>
+<foo.out+0x4ea0>
+<foo.out+0x416a>
+<foo.out+0x186e>
+

@@ -1,0 +1,49 @@
+Dr. Memory version 1.11.0 build 2 built on Aug 29 2016 02:37:30
+Dr. Memory results for pid 16866: "a.out"
+Recorded 3 suppression(s) from default /Users/tianxin/Desktop/Data Structure/DrMemory-MacOS-1.11.0-2/bin/suppress-default.txt
+
+Error #1: POSSIBLE LEAK 20 direct bytes + 116 indirect bytes
+# 0 replace_operator_new       
+# 1 main                               [main_smart_pointers.cpp:140]
+
+Error #2: POSSIBLE LEAK 40 bytes 
+# 0 replace_operator_new_array 
+# 1 Balloon::Balloon                         [main_smart_pointers.cpp:21]
+# 2 Balloon::Balloon                         [main_smart_pointers.cpp:18]
+# 3 main                                     [main_smart_pointers.cpp:141]
+
+Error #3: POSSIBLE LEAK 40 direct bytes + 60 indirect bytes
+# 0 replace_operator_new_array 
+# 1 Balloon::Balloon                         [main_smart_pointers.cpp:21]
+# 2 Balloon::Balloon                         [main_smart_pointers.cpp:18]
+# 3 main                                     [main_smart_pointers.cpp:144]
+
+Error #4: POSSIBLE LEAK 32 bytes 
+# 0 replace_operator_new       
+# 1 libc++.1.dylib!std::__1::basic_string<>::__init
+# 2 libc++.1.dylib!std::__1::basic_string<>::basic_string
+# 3 Balloon::Balloon                                     [main_smart_pointers.cpp:18]
+# 4 Balloon::Balloon                                     [main_smart_pointers.cpp:18]
+# 5 main                                                 [main_smart_pointers.cpp:151]
+
+Error #5: POSSIBLE LEAK 40 bytes 
+# 0 replace_operator_new_array 
+# 1 Balloon::Balloon                         [main_smart_pointers.cpp:21]
+# 2 Balloon::Balloon                         [main_smart_pointers.cpp:18]
+# 3 main                                     [main_smart_pointers.cpp:151]
+
+===========================================================================
+FINAL SUMMARY:
+
+DUPLICATE ERROR COUNTS:
+
+SUPPRESSIONS USED:
+
+ERRORS FOUND:
+      0 unique,     0 total unaddressable access(es)
+      0 unique,     0 total uninitialized access(es)
+      0 unique,     0 total invalid heap argument(s)
+      0 unique,     0 total warning(s)
+      0 unique,     0 total,      0 byte(s) of leak(s)
+      5 unique,     5 total,    348 byte(s) of possible leak(s)
+Details: /Users/tianxin/Desktop/Data Structure/DrMemory-MacOS-1.11.0-2/drmemory/logs/DrMemory-a.out.16866.000/results.txt

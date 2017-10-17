@@ -1,0 +1,66 @@
+# File for suppressing errors found in pid 16889: "a.out"
+
+# Suppression for Error #1
+LEAK
+name=Error #1 (update to meaningful name)
+libdrmemorylib.1.11.0.dylib!replace_operator_new
+a.out!main
+
+## Mod+offs-style suppression for Error #1:
+LEAK
+name=Error #1 (update to meaningful name)
+<libdrmemorylib.1.11.0.dylib+0x31800>
+<a.out+0x153f>
+
+# Suppression for Error #2
+LEAK
+name=Error #2 (update to meaningful name)
+libdrmemorylib.1.11.0.dylib!replace_operator_new
+a.out!main
+
+## Mod+offs-style suppression for Error #2:
+LEAK
+name=Error #2 (update to meaningful name)
+<libdrmemorylib.1.11.0.dylib+0x31800>
+<a.out+0x1661>
+
+# Suppression for Error #3
+POSSIBLE LEAK
+name=Error #3 (update to meaningful name)
+libdrmemorylib.1.11.0.dylib!replace_operator_new
+a.out!main
+
+## Mod+offs-style suppression for Error #3:
+POSSIBLE LEAK
+name=Error #3 (update to meaningful name)
+<libdrmemorylib.1.11.0.dylib+0x31800>
+<a.out+0x1791>
+
+# Suppression for Error #4
+LEAK
+name=Error #4 (update to meaningful name)
+libdrmemorylib.1.11.0.dylib!replace_operator_new_array
+a.out!Balloon::Balloon
+a.out!Balloon::Balloon
+a.out!main
+
+## Mod+offs-style suppression for Error #4:
+LEAK
+name=Error #4 (update to meaningful name)
+<libdrmemorylib.1.11.0.dylib+0x31b00>
+<a.out+0x27c0>
+<a.out+0x2354>
+<a.out+0x199f>
+
+# Suppression for Error #5
+POSSIBLE LEAK
+name=Error #5 (update to meaningful name)
+libdrmemorylib.1.11.0.dylib!replace_operator_new
+a.out!main
+
+## Mod+offs-style suppression for Error #5:
+POSSIBLE LEAK
+name=Error #5 (update to meaningful name)
+<libdrmemorylib.1.11.0.dylib+0x31800>
+<a.out+0x19ef>
+

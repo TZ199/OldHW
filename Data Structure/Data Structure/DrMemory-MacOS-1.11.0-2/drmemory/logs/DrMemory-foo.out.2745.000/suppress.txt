@@ -1,0 +1,26 @@
+# File for suppressing errors found in pid 2745: "foo.out"
+
+# Suppression for Error #1
+UNINITIALIZED READ
+name=Error #1 (update to meaningful name)
+foo.out!array_operations
+foo.out!main
+
+## Mod+offs-style suppression for Error #1:
+UNINITIALIZED READ
+name=Error #1 (update to meaningful name)
+<foo.out+0x8a34>
+<foo.out+0x1597f>
+
+# Suppression for Error #2
+UNADDRESSABLE ACCESS
+name=Error #2 (update to meaningful name)
+foo.out!decrypt
+foo.out!main
+
+## Mod+offs-style suppression for Error #2:
+UNADDRESSABLE ACCESS
+name=Error #2 (update to meaningful name)
+<foo.out+0x16345>
+<foo.out+0x15f1a>
+

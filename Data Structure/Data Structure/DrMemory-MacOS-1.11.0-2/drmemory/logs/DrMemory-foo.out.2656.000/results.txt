@@ -1,0 +1,56 @@
+Dr. Memory version 1.11.0 build 2 built on Aug 29 2016 02:37:30
+Dr. Memory results for pid 2656: "foo.out"
+Recorded 3 suppression(s) from default /Users/tianxin/Desktop/Data Structure/DrMemory-MacOS-1.11.0-2/bin/suppress-default.txt
+
+Error #1: UNINITIALIZED READ: reading register eax
+# 0 array_operations               [operations.cpp:187]
+# 1 main                           [operations.cpp:621]
+
+Error #2: UNADDRESSABLE ACCESS beyond heap bounds: reading 4 byte(s)
+# 0 vector_compare                  [operations.cpp:40]
+# 1 vector_operations               [operations.cpp:511]
+# 2 main                            [operations.cpp:631]
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+
+Error #3: UNADDRESSABLE ACCESS beyond heap bounds: reading 4 byte(s)
+# 0 vector_compare                  [operations.cpp:40]
+# 1 vector_operations               [operations.cpp:512]
+# 2 main                            [operations.cpp:631]
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+
+Error #4: POSSIBLE LEAK 125 bytes 
+# 0 replace_operator_new_array 
+# 1 file_operations                          [operations.cpp:288]
+# 2 main                                     [operations.cpp:610]
+
+Error #5: LEAK 8 bytes 
+# 0 replace_operator_new       
+# 1 pythagoras                         [operations.cpp:98]
+# 2 array_operations                   [operations.cpp:140]
+# 3 main                               [operations.cpp:621]
+
+Error #6: POSSIBLE LEAK 8 bytes 
+# 0 replace_operator_new       
+# 1 pythagoras                         [operations.cpp:98]
+# 2 array_operations                   [operations.cpp:140]
+# 3 main                               [operations.cpp:621]
+
+===========================================================================
+FINAL SUMMARY:
+
+DUPLICATE ERROR COUNTS:
+	Error #   2:      6
+	Error #   3:      4
+	Error #   5:    463
+	Error #   6:     95
+
+SUPPRESSIONS USED:
+
+ERRORS FOUND:
+      2 unique,    10 total unaddressable access(es)
+      1 unique,     1 total uninitialized access(es)
+      0 unique,     0 total invalid heap argument(s)
+      0 unique,     0 total warning(s)
+      1 unique,   463 total,   3704 byte(s) of leak(s)
+      2 unique,    96 total,    885 byte(s) of possible leak(s)
+Details: /Users/tianxin/Desktop/Data Structure/DrMemory-MacOS-1.11.0-2/drmemory/logs/DrMemory-foo.out.2656.000/results.txt

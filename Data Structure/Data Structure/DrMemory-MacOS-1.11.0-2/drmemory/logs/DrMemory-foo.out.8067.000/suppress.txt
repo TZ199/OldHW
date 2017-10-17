@@ -1,0 +1,36 @@
+# File for suppressing errors found in pid 8067: "foo.out"
+
+# Suppression for Error #1
+UNADDRESSABLE ACCESS
+name=Error #1 (update to meaningful name)
+foo.out!BPlusTree<>::find
+foo.out!BPlusTree<>::find
+foo.out!BPlusTree<>::find
+foo.out!BPlusTree<>::insert
+foo.out!RealTreeTestNoPrint
+foo.out!main
+
+## Mod+offs-style suppression for Error #1:
+UNADDRESSABLE ACCESS
+name=Error #1 (update to meaningful name)
+<foo.out+0x1ea9d>
+<foo.out+0x1eab3>
+<foo.out+0x52eb>
+<foo.out+0x4453>
+<foo.out+0x37e0>
+<foo.out+0xc46>
+
+# Suppression for Error #2
+UNADDRESSABLE ACCESS
+name=Error #2 (update to meaningful name)
+foo.out!BPlusTree<>::insert
+foo.out!RealTreeTestNoPrint
+foo.out!main
+
+## Mod+offs-style suppression for Error #2:
+UNADDRESSABLE ACCESS
+name=Error #2 (update to meaningful name)
+<foo.out+0x446b>
+<foo.out+0x37e0>
+<foo.out+0xc46>
+
